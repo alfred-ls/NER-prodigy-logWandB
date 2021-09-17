@@ -1,0 +1,27 @@
+data-to-spacy:
+  cmd: python -m spacy run data-to-spacy
+  script:
+    - python -m prodigy data-to-spacy corpus/ --ner correct_UC01_train,eval:correct_UC01_eval
+  deps: []
+  outs:
+    - path: corpus/train.spacy
+      md5: 169b598d5188b8e82a7a87e9bc4c358f
+    - path: corpus/dev.spacy
+      md5: b4df6ce5d4b6a9f9dc34b920748dc503
+  spacy_version: 3.1.1
+  spacy_git_version: ffaead8fe
+train_spacy:
+  cmd: python -m spacy run train_spacy
+  script:
+    - python -m spacy train configs/config.cfg --output training/ --paths.train corpus/train.spacy
+      --paths.dev corpus/dev.spacy --verbose --gpu-id -1
+  deps:
+    - path: corpus/train.spacy
+      md5: 169b598d5188b8e82a7a87e9bc4c358f
+    - path: corpus/dev.spacy
+      md5: b4df6ce5d4b6a9f9dc34b920748dc503
+  outs:
+    - path: training/model-best
+      md5: 6578923dfe85e843fd8b060feaf64f44
+  spacy_version: 3.1.1
+  spacy_git_version: ffaead8fe

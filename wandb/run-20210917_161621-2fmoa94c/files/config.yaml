@@ -1,0 +1,250 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.3
+    start_time: 1631888182
+    t:
+      3:
+      - 2
+      4: 3.8.3
+      5: 0.12.1
+      8:
+      - 3
+      - 5
+components:
+  desc: null
+  value:
+    entity_ruler:
+      ent_id_sep: '||'
+      factory: entity_ruler
+      overwrite_ents: false
+      phrase_matcher_attr: null
+      validate: false
+    ner:
+      factory: ner
+      incorrect_spans_key: null
+      model:
+        '@architectures': spacy.TransitionBasedParser.v2
+        extra_state_tokens: false
+        hidden_width: 64
+        maxout_pieces: 2
+        'no': null
+        state_type: ner
+        tok2vec:
+          '@architectures': spacy.Tok2Vec.v2
+          embed:
+            '@architectures': spacy.MultiHashEmbed.v2
+            attrs:
+            - NORM
+            - PREFIX
+            - SUFFIX
+            - SHAPE
+            include_static_vectors: true
+            rows:
+            - 5000
+            - 2500
+            - 2500
+            - 2500
+            width: 96
+          encode:
+            '@architectures': spacy.MaxoutWindowEncoder.v2
+            depth: 4
+            maxout_pieces: 3
+            width: 96
+            window_size: 1
+        use_upper: true
+      moves: null
+      update_with_oracle_cut_size: 100
+    senter:
+      factory: senter
+      model:
+        '@architectures': spacy.Tagger.v1
+        'no': null
+        tok2vec:
+          '@architectures': spacy.Tok2Vec.v2
+          embed:
+            '@architectures': spacy.MultiHashEmbed.v2
+            attrs:
+            - NORM
+            - PREFIX
+            - SUFFIX
+            - SHAPE
+            include_static_vectors: true
+            rows:
+            - 1000
+            - 500
+            - 500
+            - 500
+            width: 16
+          encode:
+            '@architectures': spacy.MaxoutWindowEncoder.v2
+            depth: 2
+            maxout_pieces: 2
+            width: 16
+            window_size: 1
+    tok2vec:
+      factory: tok2vec
+      model:
+        '@architectures': spacy.Tok2Vec.v2
+        embed:
+          '@architectures': spacy.MultiHashEmbed.v2
+          attrs:
+          - NORM
+          - PREFIX
+          - SUFFIX
+          - SHAPE
+          include_static_vectors: true
+          rows:
+          - 5000
+          - 2500
+          - 2500
+          - 2500
+          width: 96
+        encode:
+          '@architectures': spacy.MaxoutWindowEncoder.v2
+          depth: 4
+          maxout_pieces: 3
+          width: 96
+          window_size: 1
+corpora:
+  desc: null
+  value:
+    dev:
+      '@readers': spacy.Corpus.v1
+      augmenter: null
+      gold_preproc: false
+      limit: 0
+      max_length: 0
+      path: corpus/dev.spacy
+    train:
+      '@readers': spacy.Corpus.v1
+      augmenter: null
+      gold_preproc: false
+      limit: 0
+      max_length: 5000
+      path: corpus/train.spacy
+initialize:
+  desc: null
+  value:
+    after_init: null
+    before_init: null
+    components:
+      ner:
+        labels:
+          '@readers': spacy.read_labels.v1
+          path: corpus/labels/ner.json
+          require: false
+      parser:
+        labels:
+          '@readers': spacy.read_labels.v1
+          path: corpus/labels/parser.json
+          require: false
+      tagger:
+        labels:
+          '@readers': spacy.read_labels.v1
+          path: corpus/labels/tagger.json
+          require: false
+    init_tok2vec: null
+    lookups:
+      '@misc': spacy.LookupsDataLoader.v1
+      lang: en
+      tables:
+      - lexeme_norm
+    vectors: training/custom_model_md
+    vocab_data: null
+nlp:
+  desc: null
+  value:
+    after_creation: null
+    after_pipeline_creation: null
+    batch_size: 256
+    before_creation: null
+    disabled:
+    - senter
+    lang: en
+    pipeline:
+    - tok2vec
+    - senter
+    - ner
+    - entity_ruler
+    tokenizer:
+      '@tokenizers': spacy.Tokenizer.v1
+paths:
+  desc: null
+  value:
+    dev: corpus/dev.spacy
+    init_tok2vec: null
+    raw: null
+    train: corpus/train.spacy
+    vectors: training/custom_model_md
+    vocab_data: null
+system:
+  desc: null
+  value:
+    gpu_allocator: null
+    seed: 0
+training:
+  desc: null
+  value:
+    accumulate_gradient: 1
+    annotating_components: []
+    batcher:
+      '@batchers': spacy.batch_by_words.v1
+      discard_oversize: false
+      get_length: null
+      size:
+        '@schedules': compounding.v1
+        compound: 1.001
+        start: 100
+        stop: 1000
+        t: 0.0
+      tolerance: 0.2
+    before_to_disk: null
+    dev_corpus: corpora.dev
+    dropout: 0.1
+    eval_frequency: 1000
+    frozen_components: []
+    gpu_allocator: null
+    logger:
+      '@loggers': spacy.WandbLogger.v2
+      log_dataset_dir: null
+      model_log_interval: null
+      project_name: NER-prodigy-logWandB
+      remove_config_values: []
+    max_epochs: 0
+    max_steps: 0
+    optimizer:
+      '@optimizers': Adam.v1
+      beta1: 0.9
+      beta2: 0.999
+      eps: 1.0e-08
+      grad_clip: 1.0
+      l2: 0.01
+      l2_is_weight_decay: true
+      learn_rate: 0.001
+      use_averages: true
+    patience: 5000
+    score_weights:
+      dep_las: 0.16
+      dep_las_per_type: null
+      dep_uas: 0.0
+      ents_f: 0.33
+      ents_p: 0.0
+      ents_per_type: null
+      ents_r: 0.0
+      lemma_acc: 0.33
+      sents_f: 0.02
+      sents_p: null
+      sents_r: null
+      tag_acc: 0.16
+    seed: 0
+    train_corpus: corpora.train
+variables:
+  desc: null
+  value:
+    wandb_project_name: NER-prodigy-logWandB
