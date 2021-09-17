@@ -1,15 +1,26 @@
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 spaCy Project: Prodigy annotation tool integration
+# 🪐 Prodigy / spaCy / wandb pipeline based on 🪐 spaCy Projects
+## Use Case 01 NER BBC & NG news
++ Annotation process via Prodigy annotation tool
++ Weights & Biases for logging of training experiments
 
-This project shows how to integrate the [Prodigy](https://prodi.gy) annotation tool (requires **v1.11+**) into your spaCy project template to automatically **export annotations** you've created and **train your model** on the collected data. Note that in order to run this template, you'll need to install Prodigy separately into your environment. For details on how the data was created, check out this [project template](https://github.com/explosion/projects/tree/v3/tutorials/ner_fashion_brands) and [blog post](https://explosion.ai/blog/sense2vec-reloaded#annotation).
-> ⚠️ **Important note:** The example in this project uses a separate step `db-in` to export the example annotations into your database, so you can easily run it end-to-end. In your own workflows, you can leave this out and access the given dataset you've annotated directly.
+
+NER project for spaCy v3. The project data comes from kaggle: 
++ BBC (https://www.kaggle.com/hgultekin/bbcnewsarchive)
++ NG (https://www.kaggle.com/salmaelanigri/doc-class)
+
+Label scheme (4 labels for 2 components):
+
+| Component | Labels |
+| --- | --- |
+| **`NER`** | `PERSON`, `F_NAME`, `L_NAME` |
+| **`ENTITY_RULER`** | `EMAIL` |
 
 ## 📋 project.yml
 
 The [`project.yml`](project.yml) defines the data assets required by the
-project, as well as the available commands and workflows. For details, see the
-[spaCy projects documentation](https://spacy.io/usage/projects).
+project, as well as the available commands and workflows.
 
 ### ⏯ Commands
 
@@ -19,12 +30,22 @@ Commands are only re-run if their inputs have changed.
 
 | Command | Description |
 | --- | --- |
-| `db-in` | Load data into prodigy (only for example purposes) |
 | `data-to-spacy` | Merge your annotations and create data in spaCy's binary format |
-| `train_spacy` | Train a named entity recognition model with spaCy |
+| `train_spacy` | Train a named entity recognition model with spaCy and log the results via wandb |
 | `train_prodigy` | Train a named entity recognition model with Prodigy |
 | `train_curve` | Train the model with Prodigy by using different portions of training examples to evaluate if more annotations can potentially improve the performance |
 | `package` | Package the trained model so it can be installed |
+
+
++ ToDo:
+
+| Command | Description |
+| --- | --- |
+| `evaluate` | Evaluate the model and export metrics via spaCy |
+| `visualize-model` | Visualize the model's output interactively using Streamlit |
+| `visualize-data` | Visualize the data interactively using Streamlit |
+
+
 
 ### ⏭ Workflows
 
@@ -35,18 +56,16 @@ inputs have changed.
 
 | Workflow | Steps |
 | --- | --- |
-| `all` | `db-in` &rarr; `data-to-spacy` &rarr; `train_spacy` |
-| `all_prodigy` | `db-in` &rarr; `train_prodigy` |
+| `all` |  `data-to-spacy` &rarr; `train_spacy` &rarr; `evaluate` |
+| `all_prodigy` | `train_prodigy` &rarr; `train_curve` |
 
 ### 🗂 Assets
 
-The following assets are defined by the project. They can
-be fetched by running [`spacy project assets`](https://spacy.io/api/cli#project-assets)
-in the project directory.
+The following raw assets are defined by the project.
 
 | File | Source | Description |
 | --- | --- | --- |
-| `assets/fashion_brands_training.jsonl.jsonl` | Local | JSONL-formatted training data exported from Prodigy, annotated with `FASHION_BRAND` entities (1235 examples) |
-| `assets/fashion_brands_eval.jsonl.jsonl` | Local | JSONL-formatted development data exported from Prodigy, annotated with `FASHION_BRAND` entities (500 examples) |
+| `assets/raw/UC1_eval_meta.jsonl` | Local | JSONL-formatted raw training data (1778 docs) |
+| `assets/fashion_brands_eval.jsonl.jsonl` | Local | JSONL-formatted raw development data (593 docs) |
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->
