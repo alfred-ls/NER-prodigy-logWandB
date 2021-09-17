@@ -65,7 +65,7 @@ The following raw assets are defined by the project.
 
 | File | Source | Description |
 | --- | --- | --- |
-| `assets/raw/UC1_eval_meta.jsonl` | Local | JSONL-formatted raw training data (1778 docs) |
-| `assets/fashion_brands_eval.jsonl.jsonl` | Local | JSONL-formatted raw development data (593 docs) |
+| `assets/raw/UC1_train_meta.jsonl` | Local | JSONL-formatted raw training data (1778 docs) |
+| `assets/raw/UC1_eval_meta.jsonl` | Local | JSONL-formatted raw development data (593 docs) |
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->
