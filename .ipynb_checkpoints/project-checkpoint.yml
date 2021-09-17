@@ -37,13 +37,13 @@ directories: ["assets", "training", "configs", "corpus", "packages"]
 # run them via "spacy project run [workflow]". If a commands's inputs/outputs
 # haven't changed, it won't be re-run.
 workflows:
-#   all:
-#      - data-to-spacy
-#      - train_spacy
-#      - evaluate
+   all:
+     - data-to-spacy
+     - train_spacy
+     - evaluate
 
 
-  all_prodigy:
+   all_prodigy:
 #      - db-in
      - train_prodigy
      - train_curve_prodigy
@@ -64,24 +64,24 @@ commands:
 #       - "assets/${vars.files.train_file}"
 #       - "assets/${vars.files.eval_file}"
 
-#   - name: "data-to-spacy"
-#     help: "Merge your annotations and create data in spaCy's binary format"
-#     script:
-#       - "python -m prodigy data-to-spacy corpus/ --ner ${vars.prodigy.train_dataset},eval:${vars.prodigy.eval_dataset}"
+  - name: "data-to-spacy"
+    help: "Merge your annotations and create data in spaCy's binary format"
+    script:
+      - "python -m prodigy data-to-spacy corpus/ --ner ${vars.prodigy.train_dataset},eval:${vars.prodigy.eval_dataset}"
 
-#     outputs:
-#       - "corpus/train.spacy"
-#       - "corpus/dev.spacy"
+    outputs:
+      - "corpus/train.spacy"
+      - "corpus/dev.spacy"
 
-#   - name: "train_spacy"
-#     help: "Train a named entity recognition model with spaCy"
-#     script:
-#       - "python -m spacy train training/custom_model_md/${vars.config} --output training/ --paths.train corpus/train.spacy --paths.dev corpus/dev.spacy --gpu-id ${vars.gpu_id}"
-#     deps:
-#       - "corpus/train.spacy"
-#       - "corpus/dev.spacy"
-#     outputs:
-#       - "training/model-best"
+  - name: "train_spacy"
+    help: "Train a named entity recognition model with spaCy"
+    script:
+      - "python -m spacy train training/custom_model_md/${vars.config} --output training/ --paths.train corpus/train.spacy --paths.dev corpus/dev.spacy --gpu-id ${vars.gpu_id}"
+    deps:
+      - "corpus/train.spacy"
+      - "corpus/dev.spacy"
+    outputs:
+      - "training/model-best"
 
 
   - name: "train_prodigy"

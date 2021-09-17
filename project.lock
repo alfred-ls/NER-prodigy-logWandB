@@ -25,3 +25,29 @@ train_spacy:
       md5: 6578923dfe85e843fd8b060feaf64f44
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
+train_prodigy:
+  cmd: python -m spacy run train_prodigy
+  script:
+    - python -m prodigy train training/ --ner correct_UC01_train,eval:correct_UC01_eval
+      --config training/custom_model_md/config.cfg --base-model training/custom_model_md
+      --verbose --gpu-id -1
+  deps: []
+  outs:
+    - path: training/model-best
+      md5: e2f6d9156a4f831cdb924935c8c838a7
+  spacy_version: 3.1.1
+  spacy_git_version: ffaead8fe
+evaluate:
+  cmd: python -m spacy run evaluate
+  script:
+    - python -m spacy evaluate training/model-best corpus/dev.spacy --output training/metrics.json
+  deps:
+    - path: corpus/dev.spacy
+      md5: b4df6ce5d4b6a9f9dc34b920748dc503
+    - path: training/model-best
+      md5: 1be451c5562029e57d691966d41802dc
+  outs:
+    - path: training/metrics.json
+      md5: bdd527361436662ac72001cbf8d85795
+  spacy_version: 3.1.1
+  spacy_git_version: ffaead8fe
