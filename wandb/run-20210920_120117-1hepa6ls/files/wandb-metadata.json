@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.8.3",
+    "heartbeatAt": "2021-09-20T10:01:19.171629",
+    "startedAt": "2021-09-20T10:01:17.947602",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "train",
+        "training/custom_model_md/config.cfg",
+        "--output",
+        "training/",
+        "--paths.train",
+        "corpus/train.spacy",
+        "--paths.dev",
+        "corpus/dev.spacy",
+        "--gpu-id",
+        "-1"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\astelzl\\Miniconda3\\lib\\site-packages\\spacy\\__main__.py",
+    "codePath": "..\\..\\..\\..\\Miniconda3\\lib\\site-packages\\spacy\\__main__.py",
+    "git": {
+        "remote": "https://github.com/alfred-ls/NER-prodigy-logWandB.git",
+        "commit": "c85ae87fda0c441a32d2f6b39f713ece8a873412"
+    },
+    "email": "alfred.stelzl@gmx.de",
+    "root": "C:/Users/astelzl/Documents/02_DEV/01_Code_Thesis/NER-prodigy-logWandB",
+    "host": "astelzlPC1C17X5",
+    "username": "astelzl",
+    "executable": "C:\\Users\\astelzl\\Miniconda3\\python.exe"
+}
