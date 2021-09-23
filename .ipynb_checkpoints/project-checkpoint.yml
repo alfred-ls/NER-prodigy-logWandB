@@ -41,6 +41,7 @@ workflows:
      - data-to-spacy
      - train_spacy
      - evaluate
+     - evaluate_entity_ruler
 
 
    all_prodigy:
@@ -87,7 +88,7 @@ commands:
   - name: "train_prodigy"
     help: "Train a named entity recognition model with Prodigy"
     script:
-      - "python -m prodigy train training/ --ner ${vars.prodigy.train_dataset},eval:${vars.prodigy.eval_dataset} --config configs/${vars.config} --base-model training/custom_model_md --verbose --gpu-id ${vars.gpu_id} #--label-stats"
+      - "python -m prodigy train training/ --ner ${vars.prodigy.train_dataset},eval:${vars.prodigy.eval_dataset} --config configs/${vars.config} --base-model training/custom_model_md --verbose --gpu-id ${vars.gpu_id} --label-stats"
 
     outputs:
       - "training/model-best"
@@ -105,6 +106,17 @@ commands:
     deps:
       - "corpus/dev.spacy"
       - "training/model-best"
+    outputs:
+      - "training/metrics.json"
+      
+      
+  - name: "evaluate_entity_ruler"
+    help: "Evaluate the model and export metrics"
+    script:
+      - "python -m spacy evaluate training/custom_model_md corpus/dev.spacy --output training/metrics.json"
+    deps:
+      - "corpus/dev.spacy"
+      - "training/custom_model_md"
     outputs:
       - "training/metrics.json"
 

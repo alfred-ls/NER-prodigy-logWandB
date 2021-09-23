@@ -41,6 +41,7 @@ workflows:
      - data-to-spacy
      - train_spacy
      - evaluate
+     - evaluate_entity_ruler
 
 
    all_prodigy:
@@ -105,6 +106,17 @@ commands:
     deps:
       - "corpus/dev.spacy"
       - "training/model-best"
+    outputs:
+      - "training/metrics.json"
+      
+      
+  - name: "evaluate_entity_ruler"
+    help: "Evaluate the model and export metrics"
+    script:
+      - "python -m spacy evaluate training/custom_model_md corpus/dev.spacy --output training/metrics.json"
+    deps:
+      - "corpus/dev.spacy"
+      - "training/custom_model_md"
     outputs:
       - "training/metrics.json"
 
