@@ -1,0 +1,376 @@
+2021-09-27 11:53:51,713 INFO    MainThread:2796 [internal.py:wandb_internal():86] W&B internal server running at pid: 2796, started at: 2021-09-27 11:53:51.708492
+2021-09-27 11:53:51,715 INFO    WriterThread:2796 [datastore.py:open_for_write():77] open: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\run-1trflhgf.wandb
+2021-09-27 11:53:51,715 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: check_version
+2021-09-27 11:53:51,717 DEBUG   SenderThread:2796 [sender.py:send():185] send: header
+2021-09-27 11:53:51,717 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: check_version
+2021-09-27 11:53:51,830 DEBUG   SenderThread:2796 [sender.py:send():185] send: run
+2021-09-27 11:53:52,112 INFO    SenderThread:2796 [dir_watcher.py:__init__():169] watching files in: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files
+2021-09-27 11:53:52,112 INFO    SenderThread:2796 [sender.py:_start_run_threads():746] run started: 1trflhgf with start time 1632736431
+2021-09-27 11:53:52,112 DEBUG   SenderThread:2796 [sender.py:send():185] send: summary
+2021-09-27 11:53:52,113 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: run_start
+2021-09-27 11:53:52,118 INFO    SenderThread:2796 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-27 11:53:52,123 DEBUG   HandlerThread:2796 [meta.py:__init__():40] meta init
+2021-09-27 11:53:52,124 DEBUG   HandlerThread:2796 [meta.py:__init__():54] meta init done
+2021-09-27 11:53:52,126 DEBUG   HandlerThread:2796 [meta.py:probe():211] probe
+2021-09-27 11:53:52,127 DEBUG   HandlerThread:2796 [meta.py:_setup_git():201] setup git
+2021-09-27 11:53:52,209 DEBUG   HandlerThread:2796 [meta.py:_setup_git():208] setup git done
+2021-09-27 11:53:52,209 DEBUG   HandlerThread:2796 [meta.py:_save_pip():58] save pip
+2021-09-27 11:53:52,210 DEBUG   HandlerThread:2796 [meta.py:_save_pip():72] save pip done
+2021-09-27 11:53:52,210 DEBUG   HandlerThread:2796 [meta.py:_save_conda():79] save conda
+2021-09-27 11:53:52,915 DEBUG   HandlerThread:2796 [meta.py:_save_conda():87] save conda done
+2021-09-27 11:53:52,915 DEBUG   HandlerThread:2796 [meta.py:probe():249] probe done
+2021-09-27 11:53:52,919 DEBUG   SenderThread:2796 [sender.py:send():185] send: files
+2021-09-27 11:53:52,919 INFO    SenderThread:2796 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-09-27 11:53:52,924 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:53:52,927 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:53:53,114 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\wandb-metadata.json
+2021-09-27 11:53:53,114 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\conda-environment.yaml
+2021-09-27 11:53:53,114 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\output.log
+2021-09-27 11:53:53,114 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\wandb-summary.json
+2021-09-27 11:53:53,114 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\requirements.txt
+2021-09-27 11:53:53,583 INFO    Thread-17 :2796 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\AppData\Local\Temp\tmptila9norwandb\r7femt1n-wandb-metadata.json
+2021-09-27 11:53:54,662 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: log_artifact
+2021-09-27 11:53:54,662 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: log_artifact
+2021-09-27 11:53:55,092 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: pause
+2021-09-27 11:53:55,092 INFO    HandlerThread:2796 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-09-27 11:53:55,115 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\media\table\correct_UC01_eval_0_0278c98d8402a653995a.table.json
+2021-09-27 11:53:55,115 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\media\table
+2021-09-27 11:53:55,115 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\media
+2021-09-27 11:53:56,416 INFO    Thread-66 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\6c\c4ab63ead25da7be8b5c24fb075f79
+2021-09-27 11:53:56,425 INFO    Thread-64 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\69\48ab0dd712c6c30fd4fd0531ee7ce3
+2021-09-27 11:53:56,455 INFO    Thread-44 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\2d\81fe387e5a85c3bd976c169be3ea88
+2021-09-27 11:53:56,473 INFO    Thread-69 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\77\db6eeb4d53dbeb32f2a1fbf99347bc
+2021-09-27 11:53:56,477 INFO    Thread-65 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\69\e04e5e0e1674b12260e8466b2affaf
+2021-09-27 11:53:56,481 INFO    Thread-33 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\18\cef3a89c77c9b0ef1ef786f9b52c44
+2021-09-27 11:53:56,509 INFO    Thread-42 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\2b\27fb0d74e8a02a0acbe0fed288dc84
+2021-09-27 11:53:56,518 INFO    Thread-46 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\37\ce6bc1290c0c8fddf1cccb7b7c4ab1
+2021-09-27 11:53:56,520 INFO    Thread-50 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\3c\eef4b4853b3da8252f24b595bfe66d
+2021-09-27 11:53:56,529 INFO    Thread-38 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\22\bfabef4857c3240db80218e3eb0fa5
+2021-09-27 11:53:56,543 INFO    Thread-31 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\14\547db2d34286b05f92286c3e9ffb9c
+2021-09-27 11:53:56,555 INFO    Thread-48 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\38\ceeb71c2eed5289b710cae21385292
+2021-09-27 11:53:56,557 INFO    Thread-37 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\20\0b0926b993aba7f17ae525a6afa0ec
+2021-09-27 11:53:56,561 INFO    Thread-67 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\6f\e585b7f11d6274be60dc4b430dafae
+2021-09-27 11:53:56,565 INFO    Thread-34 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\19\9775da87aa8656e4a4cf67ec909b06
+2021-09-27 11:53:56,566 INFO    Thread-30 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\14\173dda9c83d05216e71bbb8b857d80
+2021-09-27 11:53:56,569 INFO    Thread-58 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\5d\ff1661590890537c407d288ac48709
+2021-09-27 11:53:56,569 INFO    Thread-70 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\7a\0ddba6b99ababe82c0c8c5c996d2a5
+2021-09-27 11:53:56,574 INFO    Thread-45 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\33\22e1146524c76dffc2499d55585ee8
+2021-09-27 11:53:56,579 INFO    Thread-24 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\05\d6f8055baddbb9b0b30f0aa0f2854e
+2021-09-27 11:53:56,581 INFO    Thread-49 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\3c\bf477b024df1807bdd760686a50b90
+2021-09-27 11:53:56,584 INFO    Thread-51 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\49\9dbf17aa920d84bcb5cb3087bb8a0b
+2021-09-27 11:53:56,596 INFO    Thread-21 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\02\4a938f44ad75101ed6e5e0cc34a352
+2021-09-27 11:53:56,604 INFO    Thread-28 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\13\235b02e46d5f699ebcbe13cf1d2679
+2021-09-27 11:53:56,625 INFO    Thread-41 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\29\cfc4ce8efdc1c43da4555497289b40
+2021-09-27 11:53:56,626 INFO    Thread-57 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\5a\5a9a7c5bb36e5f2194b0c979c87343
+2021-09-27 11:53:56,628 INFO    Thread-23 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\04\37c2d9fc81df3b82242648f8e4b4cb
+2021-09-27 11:53:56,631 INFO    Thread-43 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\2d\4821e8b12f3da2edd00a78c0b25e32
+2021-09-27 11:53:56,632 INFO    Thread-26 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\0d\0589e8ae4d87805f500c2acc31a4c4
+2021-09-27 11:53:56,633 INFO    Thread-74 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\7f\e07d2fe6b83634449e624f62034b4c
+2021-09-27 11:53:56,633 INFO    Thread-75 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\80\c3728f9211b849ac85349d61d6da4e
+2021-09-27 11:53:56,634 INFO    Thread-54 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\59\36bd1f3b338c51bedc6fc1c5d4973d
+2021-09-27 11:53:56,638 INFO    Thread-29 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\13\8581dfa8c1595121868f4a5071ca00
+2021-09-27 11:53:56,641 INFO    Thread-63 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\69\3970b36d761e2bf49fe577c69d327e
+2021-09-27 11:53:56,644 INFO    Thread-40 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\28\fe302895bd1e89def23802f97ac909
+2021-09-27 11:53:56,646 INFO    Thread-81 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\8d\b0c7b97fd917356d9ddee3b5f1b903
+2021-09-27 11:53:56,647 INFO    Thread-35 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\1d\ba39397d032f093c1239b755bf2e04
+2021-09-27 11:53:56,648 INFO    Thread-82 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\8e\3b42e47c86bf1164cb300b6bf60153
+2021-09-27 11:53:56,649 INFO    Thread-20 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\01\e50b37b83fe6c24316508702283c74
+2021-09-27 11:53:56,650 INFO    Thread-78 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\89\38327db46eecd17720ecc5d946ba15
+2021-09-27 11:53:56,651 INFO    Thread-60 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\63\c81a37bca191be6bdc1cc1e2726d45
+2021-09-27 11:53:56,652 INFO    Thread-36 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\1f\8dbedef71b5c1b1c8d0960c1f0fc76
+2021-09-27 11:53:56,655 INFO    Thread-22 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\02\bf7324fa3a20053d934363fdfa06f6
+2021-09-27 11:53:56,657 INFO    Thread-47 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\38\5ce26ca06153abb7e79f0af32010a5
+2021-09-27 11:53:56,658 INFO    Thread-53 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\57\ad2ad701cbbb860fe2359371ba9dac
+2021-09-27 11:53:56,659 INFO    Thread-80 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\8c\9f799d05ba41e513b93d283aef1f30
+2021-09-27 11:53:56,662 INFO    Thread-72 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\7b\bf7e8e49f9a78f40b31758b0ce4af5
+2021-09-27 11:53:56,664 INFO    Thread-73 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\7f\d62297bef6e1bc90ae88b6123dc847
+2021-09-27 11:53:56,665 INFO    Thread-39 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\27\a081b297a5e9e37166b29999abf1ac
+2021-09-27 11:53:56,666 INFO    Thread-27 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\12\58306069c15125de8141c131982230
+2021-09-27 11:53:56,667 INFO    Thread-55 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\59\b17423c558dab6a892ff7acef04026
+2021-09-27 11:53:56,670 INFO    Thread-62 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\68\c87115c6891c90b2127a5c55c84b1d
+2021-09-27 11:53:56,671 INFO    Thread-61 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\67\06de22a70a0889184db4f13bb5c1d8
+2021-09-27 11:53:56,672 INFO    Thread-56 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\5a\41aa12516568575dc7fc2a4ad942d1
+2021-09-27 11:53:56,674 INFO    Thread-32 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\18\b923237f6f1d45aa60ff6ada397cd1
+2021-09-27 11:53:56,676 INFO    Thread-59 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\62\ae841d3c2b965a2603e80a8ecfe654
+2021-09-27 11:53:56,678 INFO    Thread-79 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\8a\f0bc8a8fa0e320a444d94f9a7baa07
+2021-09-27 11:53:56,681 INFO    Thread-77 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\89\24e64a2bd0b67a5eba2fc98c5e6d77
+2021-09-27 11:53:56,685 INFO    Thread-25 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\05\efab79daffa0e68dd17303021258f8
+2021-09-27 11:53:56,689 INFO    Thread-52 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\55\e0b22b951b7bd53e1ab1cb3ac96b1d
+2021-09-27 11:53:56,692 INFO    Thread-76 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\86\c7ee5698104b613f84a5742bedb021
+2021-09-27 11:53:56,696 INFO    Thread-71 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\7a\505b403c019e26a331856ad0f25111
+2021-09-27 11:53:56,701 INFO    Thread-68 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\77\b4d6f1cfd23b2e4de899c321102415
+2021-09-27 11:53:56,850 INFO    Thread-19 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\76\ecdc4e7fb00738a49aa4b68831decf
+2021-09-27 11:53:57,014 INFO    Thread-84 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\92\8dd2bf789f88ea138d84956c8d6a58
+2021-09-27 11:53:57,038 INFO    Thread-83 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\8f\8c0c4de9470d4c3822ef2cdb1cf231
+2021-09-27 11:53:57,201 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\output.log
+2021-09-27 11:53:57,333 INFO    Thread-85 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\93\8e2e8af1d16ee3f3fa9dcfb31f761b
+2021-09-27 11:53:57,355 INFO    Thread-109:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\c8\cb3a0b8e97d928ca8fc2b9388f7603
+2021-09-27 11:53:57,369 INFO    Thread-128:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\f8\efbb353cf9f38c6eeeeb8b01e0ae4a
+2021-09-27 11:53:57,375 INFO    Thread-108:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\c8\ab99b8681fa0e555b981f48d0783f4
+2021-09-27 11:53:57,408 INFO    Thread-124:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\f4\e218cd11c3e806c582488a293d5ec0
+2021-09-27 11:53:57,418 INFO    Thread-94 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\a4\678966cf5cb48142f936a75e373b1d
+2021-09-27 11:53:57,421 INFO    Thread-132:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\ff\05054a2a0ef841e2dcd4c3b7df1229
+2021-09-27 11:53:57,427 INFO    Thread-93 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\a4\248dacc5a82b231ca56c70c57ada5e
+2021-09-27 11:53:57,428 INFO    Thread-123:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\f3\c534c4e0d8bdec704a17b3ca4425aa
+2021-09-27 11:53:57,431 INFO    Thread-105:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\c1\181c12d484dcf6ec04065f82a4a634
+2021-09-27 11:53:57,434 INFO    Thread-131:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\fe\582124d215121b31cc89a1244ef35e
+2021-09-27 11:53:57,436 INFO    Thread-117:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\e5\3a2748d7e7fa8e4103c520125385bc
+2021-09-27 11:53:57,442 INFO    Thread-130:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\fb\3a3f6e3e8c5c6bfe8315b4173b755e
+2021-09-27 11:53:57,444 INFO    Thread-92 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\9d\c019e6c55662528faae6baf6c7e6b0
+2021-09-27 11:53:57,457 INFO    Thread-100:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\b6\e380f4c4ce98dd93c81deff6b98d3d
+2021-09-27 11:53:57,461 INFO    Thread-97 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\b0\c9f90db6fd6b21ec8a0f702533456a
+2021-09-27 11:53:57,461 INFO    Thread-98 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\b1\fd9560ff9e5545610ed8efa21512b6
+2021-09-27 11:53:57,472 INFO    Thread-86 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\94\739569aa087af564b21d96a9c41b98
+2021-09-27 11:53:57,472 INFO    Thread-91 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\9c\c45d09e82ed9582af8f3059283494a
+2021-09-27 11:53:57,475 INFO    Thread-119:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\ec\1669506b24267cbb411c1f04d2ea67
+2021-09-27 11:53:57,479 INFO    Thread-129:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\fa\c1f0a7f73891ad1264b3720fd88910
+2021-09-27 11:53:57,486 INFO    Thread-99 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\b2\4d411681f69000b3e2077d5532133d
+2021-09-27 11:53:57,487 INFO    Thread-107:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\c6\64e0d3599f4032f2f1189cde24c40f
+2021-09-27 11:53:57,488 INFO    Thread-118:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\ec\04f24a6542cf721aee3b9e83f38379
+2021-09-27 11:53:57,492 INFO    Thread-120:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\ef\eaf459a0a288e95d62da61182e72f5
+2021-09-27 11:53:57,492 INFO    Thread-101:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\b8\6d4f6d15b61f832d8dcf198c400250
+2021-09-27 11:53:57,493 INFO    Thread-90 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\9c\3646ae66870eb6f4e56092251484cf
+2021-09-27 11:53:57,498 INFO    Thread-104:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\bd\e9bfaa59ce0e3f52cd904696aa60de
+2021-09-27 11:53:57,504 INFO    Thread-95 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\a7\0b25002ec1e08bb169bcee506cbfe5
+2021-09-27 11:53:57,504 INFO    Thread-115:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\db\7eb90df664d034e22de8ee59a52d2a
+2021-09-27 11:53:57,504 INFO    Thread-87 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\98\718194bd76745b3ecdbbfc0b47b493
+2021-09-27 11:53:57,505 INFO    Thread-121:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\f0\bddd7436748e611c0d1a097e7ed637
+2021-09-27 11:53:57,508 INFO    Thread-112:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\d2\8e235e791a12643720bc4f552aa8fd
+2021-09-27 11:53:57,509 INFO    Thread-88 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\98\a2b5bffadcffc1cbfc767b5290db8b
+2021-09-27 11:53:57,510 INFO    Thread-102:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\bb\5def0c22a351785a32af895abe9c9a
+2021-09-27 11:53:57,515 INFO    Thread-110:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\ce\bc052cce79d0ba9fdc87befe4a7afb
+2021-09-27 11:53:57,515 INFO    Thread-116:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\df\584369e82a8f6469271f00eb59f878
+2021-09-27 11:53:57,516 INFO    Thread-113:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\d4\bdaf9d282ab955c91a0facffad6986
+2021-09-27 11:53:57,517 INFO    Thread-127:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\f6\8c45d33aa94fcd38b18f09813e19c4
+2021-09-27 11:53:57,522 INFO    Thread-103:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\bd\72d60b93989640df6b925da6fd4be8
+2021-09-27 11:53:57,523 INFO    Thread-114:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\d5\c7cd2d3413233c93147fa581de124a
+2021-09-27 11:53:57,525 INFO    Thread-111:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\d2\20fba0e6f787285066688c71abcf51
+2021-09-27 11:53:57,527 INFO    Thread-126:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\f5\ec50caa98970a077df04e8cdc23ef2
+2021-09-27 11:53:57,534 INFO    Thread-89 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\9a\ff902c93866288270e683cd14a8235
+2021-09-27 11:53:57,534 INFO    Thread-122:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\f2\7096e681ab8076283c07ecd99e2260
+2021-09-27 11:53:57,536 INFO    Thread-96 :2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\ac\7fc75a18c059db432716cc741fab51
+2021-09-27 11:53:57,538 INFO    Thread-125:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\f5\8128e4816515d2b16745b1c5821441
+2021-09-27 11:53:57,560 INFO    Thread-106:2796 [upload_job.py:push():95] Uploaded file C:\Users\astelzl\.cache\wandb\artifacts\obj\md5\c5\56f0be975ea35c944399d1b75ac5c3
+2021-09-27 11:53:58,479 DEBUG   SenderThread:2796 [sender.py:send():185] send: files
+2021-09-27 11:53:58,479 INFO    SenderThread:2796 [sender.py:_save_file():879] saving file media\table\correct_UC01_eval_0_0278c98d8402a653995a.table.json with policy now
+2021-09-27 11:53:58,480 DEBUG   SenderThread:2796 [sender.py:send():185] send: history
+2021-09-27 11:53:58,480 DEBUG   SenderThread:2796 [sender.py:send():185] send: summary
+2021-09-27 11:53:58,482 INFO    SenderThread:2796 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-27 11:53:58,482 DEBUG   SenderThread:2796 [sender.py:send():185] send: stats
+2021-09-27 11:53:59,203 INFO    Thread-12 :2796 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\wandb-summary.json
+2021-09-27 11:53:59,313 INFO    Thread-133:2796 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\AppData\Local\Temp\tmptila9norwandb\2b274me5-media/table/correct_UC01_eval_0_0278c98d8402a653995a.table.json
+2021-09-27 11:54:08,581 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:54:08,582 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:54:23,759 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:54:23,759 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:54:38,945 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:54:38,946 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:54:54,126 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:54:54,126 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:55:09,309 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:55:09,309 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:55:24,493 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:55:24,493 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:55:39,685 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:55:39,685 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:55:54,861 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:55:54,861 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:56:10,058 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:56:10,058 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:56:25,268 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:56:25,268 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:56:40,452 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:56:40,453 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:56:55,634 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:56:55,634 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:57:10,813 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:57:10,813 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:57:25,997 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:57:25,997 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:57:41,180 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:57:41,181 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:57:56,364 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:57:56,365 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:58:11,547 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:58:11,547 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:58:26,731 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:58:26,731 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:58:41,924 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:58:41,924 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:58:57,095 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:58:57,095 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:59:12,290 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:59:12,290 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:59:27,480 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:59:27,480 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:59:42,663 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:59:42,663 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 11:59:57,847 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 11:59:57,847 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:00:13,030 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:00:13,030 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:00:28,200 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:00:28,200 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:00:43,384 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:00:43,384 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:00:58,570 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:00:58,570 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:01:13,755 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:01:13,756 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:01:28,968 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:01:28,968 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:01:44,157 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:01:44,157 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:01:59,339 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:01:59,339 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:02:14,521 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:02:14,521 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:02:29,708 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:02:29,709 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:02:44,889 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:02:44,889 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:03:00,065 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:03:00,065 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:03:15,245 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:03:15,245 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:03:30,431 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:03:30,431 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:03:45,617 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:03:45,618 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:04:00,868 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:04:00,868 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:04:16,070 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:04:16,070 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:04:31,251 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:04:31,251 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:04:46,436 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:04:46,436 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:05:01,623 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:05:01,623 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:05:16,802 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:05:16,802 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:05:31,989 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:05:31,989 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:05:47,175 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:05:47,175 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:06:02,365 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:06:02,365 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:06:17,540 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:06:17,540 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:06:32,739 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:06:32,739 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:06:47,935 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-27 12:06:47,935 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: stop_status
+2021-09-27 12:06:49,493 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: resume
+2021-09-27 12:06:49,493 INFO    HandlerThread:2796 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-09-27 12:06:50,044 DEBUG   SenderThread:2796 [sender.py:send():185] send: telemetry
+2021-09-27 12:06:50,044 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:50,044 DEBUG   SenderThread:2796 [sender.py:send():185] send: exit
+2021-09-27 12:06:50,045 INFO    SenderThread:2796 [sender.py:send_exit():294] handling exit code: 0
+2021-09-27 12:06:50,045 INFO    SenderThread:2796 [sender.py:send_exit():296] handling runtime: 3
+2021-09-27 12:06:50,048 INFO    SenderThread:2796 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-27 12:06:50,048 INFO    SenderThread:2796 [sender.py:send_exit():306] send defer
+2021-09-27 12:06:50,048 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:50,049 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:50,049 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-27 12:06:50,049 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:50,049 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-09-27 12:06:50,049 INFO    SenderThread:2796 [sender.py:transition_state():319] send defer: 1
+2021-09-27 12:06:50,050 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:50,050 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-27 12:06:50,114 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:50,114 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-09-27 12:06:50,114 INFO    SenderThread:2796 [sender.py:transition_state():319] send defer: 2
+2021-09-27 12:06:50,114 DEBUG   SenderThread:2796 [sender.py:send():185] send: stats
+2021-09-27 12:06:50,115 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:50,115 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-27 12:06:50,115 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:50,115 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-09-27 12:06:50,115 INFO    SenderThread:2796 [sender.py:transition_state():319] send defer: 3
+2021-09-27 12:06:50,115 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:50,116 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-27 12:06:50,116 DEBUG   SenderThread:2796 [sender.py:send():185] send: summary
+2021-09-27 12:06:50,116 INFO    SenderThread:2796 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-09-27 12:06:50,116 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:50,117 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-09-27 12:06:50,117 INFO    SenderThread:2796 [sender.py:transition_state():319] send defer: 4
+2021-09-27 12:06:50,117 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:50,117 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-27 12:06:50,117 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:50,117 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-09-27 12:06:50,153 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:50,319 INFO    SenderThread:2796 [sender.py:transition_state():319] send defer: 5
+2021-09-27 12:06:50,320 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:50,320 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:50,320 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-27 12:06:50,320 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:50,320 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-09-27 12:06:50,321 INFO    SenderThread:2796 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-27 12:06:50,421 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:50,627 INFO    SenderThread:2796 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\wandb-summary.json
+2021-09-27 12:06:50,627 INFO    SenderThread:2796 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\config.yaml
+2021-09-27 12:06:50,627 INFO    SenderThread:2796 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\output.log
+2021-09-27 12:06:50,628 INFO    SenderThread:2796 [dir_watcher.py:finish():313] scan: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files
+2021-09-27 12:06:50,628 INFO    SenderThread:2796 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\conda-environment.yaml conda-environment.yaml
+2021-09-27 12:06:50,628 INFO    SenderThread:2796 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\config.yaml config.yaml
+2021-09-27 12:06:50,628 INFO    SenderThread:2796 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\output.log output.log
+2021-09-27 12:06:50,629 INFO    SenderThread:2796 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\requirements.txt requirements.txt
+2021-09-27 12:06:50,632 INFO    SenderThread:2796 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\wandb-metadata.json wandb-metadata.json
+2021-09-27 12:06:50,632 INFO    SenderThread:2796 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\wandb-summary.json wandb-summary.json
+2021-09-27 12:06:50,638 INFO    SenderThread:2796 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\media\table\correct_UC01_eval_0_0278c98d8402a653995a.table.json media\table\correct_UC01_eval_0_0278c98d8402a653995a.table.json
+2021-09-27 12:06:50,638 INFO    SenderThread:2796 [sender.py:transition_state():319] send defer: 6
+2021-09-27 12:06:50,638 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:50,642 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:50,642 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-27 12:06:50,642 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:50,642 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-09-27 12:06:50,642 INFO    SenderThread:2796 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-27 12:06:50,740 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:50,740 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:50,842 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:50,842 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:50,943 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:50,943 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:51,045 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:51,045 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:51,146 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:51,146 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:51,167 INFO    Thread-136:2796 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\output.log
+2021-09-27 12:06:51,170 INFO    Thread-135:2796 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\config.yaml
+2021-09-27 12:06:51,180 INFO    Thread-138:2796 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\wandb-summary.json
+2021-09-27 12:06:51,199 INFO    Thread-137:2796 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\files\requirements.txt
+2021-09-27 12:06:51,248 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:51,248 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:51,350 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:51,350 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:51,402 INFO    Thread-11 :2796 [sender.py:transition_state():319] send defer: 7
+2021-09-27 12:06:51,402 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:51,402 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-27 12:06:51,402 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:51,402 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-09-27 12:06:51,451 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:51,698 INFO    SenderThread:2796 [sender.py:transition_state():319] send defer: 8
+2021-09-27 12:06:51,698 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:51,699 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:51,699 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-27 12:06:51,699 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:51,699 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-09-27 12:06:51,699 INFO    SenderThread:2796 [sender.py:transition_state():319] send defer: 9
+2021-09-27 12:06:51,700 DEBUG   SenderThread:2796 [sender.py:send():185] send: final
+2021-09-27 12:06:51,700 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: defer
+2021-09-27 12:06:51,700 INFO    HandlerThread:2796 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-27 12:06:51,700 DEBUG   SenderThread:2796 [sender.py:send():185] send: footer
+2021-09-27 12:06:51,701 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: defer
+2021-09-27 12:06:51,701 INFO    SenderThread:2796 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-09-27 12:06:51,799 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-27 12:06:51,799 DEBUG   SenderThread:2796 [sender.py:send_request():199] send_request: poll_exit
+2021-09-27 12:06:51,800 INFO    SenderThread:2796 [file_pusher.py:join():182] waiting for file pusher
+2021-09-27 12:06:51,971 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-27 12:06:51,972 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-27 12:06:51,972 DEBUG   HandlerThread:2796 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-27 12:06:51,973 INFO    HandlerThread:2796 [handler.py:finish():683] shutting down handler
+2021-09-27 12:06:52,701 INFO    WriterThread:2796 [datastore.py:close():281] close: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_115346-1trflhgf\run-1trflhgf.wandb
+2021-09-27 12:06:52,971 INFO    SenderThread:2796 [sender.py:finish():985] shutting down sender
+2021-09-27 12:06:52,971 INFO    SenderThread:2796 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-27 12:06:52,971 INFO    SenderThread:2796 [file_pusher.py:join():182] waiting for file pusher
+2021-09-27 12:06:52,972 INFO    MainThread:2796 [internal.py:handle_exit():76] Internal process exited

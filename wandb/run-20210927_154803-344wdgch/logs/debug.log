@@ -1,0 +1,42 @@
+2021-09-27 15:48:03,656 INFO    MainThread:17284 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-27 15:48:03,657 INFO    MainThread:17284 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-27 15:48:03,657 INFO    MainThread:17284 [wandb_init.py:_log_setup():348] Logging user logs to C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_154803-344wdgch\logs\debug.log
+2021-09-27 15:48:03,657 INFO    MainThread:17284 [wandb_init.py:_log_setup():349] Logging internal logs to C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_154803-344wdgch\logs\debug-internal.log
+2021-09-27 15:48:03,658 INFO    MainThread:17284 [wandb_init.py:_jupyter_setup():300] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001B4CE38A310>
+2021-09-27 15:48:03,658 INFO    MainThread:17284 [wandb_init.py:init():381] calling init triggers
+2021-09-27 15:48:03,658 INFO    MainThread:17284 [wandb_init.py:init():386] wandb.init called with sweep_config: {}
+config: {}
+2021-09-27 15:48:03,658 INFO    MainThread:17284 [wandb_init.py:init():401] re-initializing run, found existing run on stack: 2byyuihg
+2021-09-27 15:48:03,660 INFO    MainThread:17284 [wandb_run.py:finish():1275] finishing run alfred-ls/Prodigy_NER/2byyuihg
+2021-09-27 15:48:03,660 INFO    MainThread:17284 [wandb_run.py:_atexit_cleanup():1575] got exitcode: 0
+2021-09-27 15:48:03,660 INFO    MainThread:17284 [wandb_run.py:_restore():1547] restore
+2021-09-27 15:48:04,171 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+  artifact_count: 1475
+}
+pusher_stats {
+  uploaded_bytes: 5714062
+  total_bytes: 5714062
+}
+
+2021-09-27 15:48:04,401 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+  artifact_count: 1475
+}
+pusher_stats {
+  uploaded_bytes: 5714062
+  total_bytes: 5714062
+}
+
+2021-09-27 15:48:04,579 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1475
+}
+pusher_stats {
+  uploaded_bytes: 5714062
+  total_bytes: 5719460
+}
+

@@ -70,6 +70,9 @@
       "I",
       "S"
     ],
+    "entity_ruler":[
+      "EMAIL"
+    ],
     "ner":[
       "CARDINAL",
       "DATE",
@@ -89,23 +92,20 @@
       "QUANTITY",
       "TIME",
       "WORK_OF_ART"
-    ],
-    "entity_ruler":[
-      "EMAIL"
     ]
   },
   "pipeline":[
     "tok2vec",
     "parser",
-    "ner",
-    "entity_ruler"
+    "entity_ruler",
+    "ner"
   ],
   "components":[
     "tok2vec",
     "parser",
     "senter",
-    "ner",
-    "entity_ruler"
+    "entity_ruler",
+    "ner"
   ],
   "disabled":[
     "senter"

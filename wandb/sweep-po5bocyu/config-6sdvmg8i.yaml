@@ -1,0 +1,170 @@
+wandb_version: 1
+
+components.entity_ruler.ent_id_sep:
+  value: '||'
+components.entity_ruler.factory:
+  value: entity_ruler
+components.entity_ruler.overwrite_ents:
+  value: 'false'
+components.entity_ruler.validate:
+  value: 'false'
+components.ner.factory:
+  value: ner
+components.ner.model.@architectures:
+  value: spacy.TransitionBasedParser.v2
+components.ner.model.extra_state_tokens:
+  value: 'true'
+components.ner.model.hidden_width:
+  value: 53
+components.ner.model.maxout_pieces:
+  value: 4
+components.ner.model.state_type:
+  value: ner
+components.ner.model.tok2vec.@architectures:
+  value: spacy.Tok2Vec.v2
+components.ner.model.tok2vec.embed.@architectures:
+  value: spacy.MultiHashEmbed.v2
+components.ner.model.tok2vec.embed.include_static_vectors:
+  value: 'true'
+components.ner.model.tok2vec.embed.width:
+  value: 150
+components.ner.model.tok2vec.encode.@architectures:
+  value: spacy.MaxoutWindowEncoder.v2
+components.ner.model.tok2vec.encode.depth:
+  value: 2
+components.ner.model.tok2vec.encode.maxout_pieces:
+  value: 6
+components.ner.model.tok2vec.encode.width:
+  value: 120
+components.ner.model.tok2vec.encode.window_size:
+  value: 2
+components.ner.model.tok2vec.upstream:
+  value: '*'
+components.ner.model.tok2vec.width:
+  value: 139
+components.ner.model.use_upper:
+  value: 'false'
+components.ner.update_with_oracle_cut_size:
+  value: 184
+components.tok2vec.factory:
+  value: tok2vec
+components.tok2vec.model.@architectures:
+  value: spacy.Tok2Vec.v1
+components.tok2vec.model.embed.@architectures:
+  value: spacy.MultiHashEmbed.v1
+components.tok2vec.model.embed.include_static_vectors:
+  value: 'false'
+components.tok2vec.model.embed.width:
+  value: 48
+components.tok2vec.model.encode.@architectures:
+  value: spacy.MaxoutWindowEncoder.v1
+components.tok2vec.model.encode.depth:
+  value: 6
+components.tok2vec.model.encode.maxout_pieces:
+  value: 2
+components.tok2vec.model.encode.width:
+  value: 110
+components.tok2vec.model.encode.window_size:
+  value: 2
+corpora.dev.@readers:
+  value: spacy.Corpus.v1
+corpora.dev.gold_preproc:
+  value: 'true'
+corpora.dev.path:
+  value: corpus/dev.spacy
+corpora.train.@readers:
+  value: spacy.Corpus.v1
+corpora.train.gold_preproc:
+  value: 'false'
+corpora.train.max_length:
+  value: 1589
+corpora.train.path:
+  value: corpus/train.spacy
+initialize.components.entity_ruler.patterns.@readers:
+  value: srsly.read_jsonl.v1
+initialize.components.entity_ruler.patterns.path:
+  value: training/custom_model_md/entity_ruler/patterns.jsonl
+initialize.components.entity_ruler.patterns.skip:
+  value: 'true'
+initialize.lookups.@misc:
+  value: spacy.LookupsDataLoader.v1
+initialize.lookups.lang:
+  value: en
+initialize.vectors:
+  value: training/custom_model_md
+nlp.batch_size:
+  value: 1785
+nlp.lang:
+  value: en
+nlp.tokenizer.@tokenizers:
+  value: spacy.Tokenizer.v1
+paths.dev:
+  value: corpus/dev.spacy
+paths.train:
+  value: corpus/train.spacy
+paths.vectors:
+  value: training/custom_model_md
+training.accumulate_gradient:
+  value: 2
+training.batcher.@batchers:
+  value: spacy.batch_by_words.v1
+training.batcher.discard_oversize:
+  value: 'true'
+training.batcher.size.@schedules:
+  value: compounding.v1
+training.batcher.size.compound:
+  value: 1.1340365011536622
+training.batcher.size.start:
+  value: 84
+training.batcher.size.stop:
+  value: 1734
+training.batcher.tolerance:
+  value: 0.15372968007664045
+training.dev_corpus:
+  value: corpora.dev
+training.dropout:
+  value: 0.13860618292597682
+training.eval_frequency:
+  value: 255
+training.logger.@loggers:
+  value: spacy.WandbLogger.v2
+training.logger.log_dataset_dir:
+  value: ./corpus
+training.logger.model_log_interval:
+  value: 1304
+training.logger.project_name:
+  value: NER-prodigy-logWandB
+training.max_steps:
+  value: 14272
+training.optimizer.@optimizers:
+  value: Adam.v1
+training.optimizer.beta1:
+  value: 1.7923298447391385
+training.optimizer.beta2:
+  value: 1.2727408318190156
+training.optimizer.eps:
+  value: 1.51087346096269e-08
+training.optimizer.grad_clip:
+  value: 1
+training.optimizer.l2:
+  value: 0.013924304829014082
+training.optimizer.l2_is_weight_decay:
+  value: 'false'
+training.optimizer.learn_rate.@schedules:
+  value: warmup_linear.v1
+training.optimizer.learn_rate.initial_rate:
+  value: 6.391775114164132e-05
+training.optimizer.learn_rate.total_steps:
+  value: 13972
+training.optimizer.learn_rate.warmup_steps:
+  value: 407
+training.optimizer.use_averages:
+  value: 'false'
+training.patience:
+  value: 2423
+training.score_weights.ents_f:
+  value: 2
+training.train_corpus:
+  value: corpora.train
+variables.wandb_project_name:
+  value: NER-prodigy-logWandB

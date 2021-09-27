@@ -5,9 +5,9 @@ data-to-spacy:
   deps: []
   outs:
     - path: corpus/train.spacy
-      md5: 8f8e6af3ae89f061e3c520622b74148d
+      md5: f95556edda5e1ebbb9aa0c3d24eb77a4
     - path: corpus/dev.spacy
-      md5: bcb56a189c709dda46c3a8b2390a5dcd
+      md5: 1eb831d6536ce5f8a5c8c06bc9e68ba6
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 train_spacy:
@@ -17,12 +17,12 @@ train_spacy:
       --paths.dev corpus/dev.spacy --verbose --gpu-id -1
   deps:
     - path: corpus/train.spacy
-      md5: 8f8e6af3ae89f061e3c520622b74148d
+      md5: f95556edda5e1ebbb9aa0c3d24eb77a4
     - path: corpus/dev.spacy
-      md5: bcb56a189c709dda46c3a8b2390a5dcd
+      md5: 1eb831d6536ce5f8a5c8c06bc9e68ba6
   outs:
     - path: training/model-best
-      md5: 45b63310a5f3886bee049574a744005a
+      md5: 524c50ac6dc4d6edebe173df917ac5fd
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 train_prodigy:
@@ -43,12 +43,12 @@ evaluate:
     - python -m spacy evaluate training/model-best corpus/dev.spacy --output training/metrics.json
   deps:
     - path: corpus/dev.spacy
-      md5: bcb56a189c709dda46c3a8b2390a5dcd
+      md5: 1eb831d6536ce5f8a5c8c06bc9e68ba6
     - path: training/model-best
-      md5: 45b63310a5f3886bee049574a744005a
+      md5: 524c50ac6dc4d6edebe173df917ac5fd
   outs:
     - path: training/metrics.json
-      md5: dc144d6eff0a0604e9ac1873a9a55d63
+      md5: a0bc0105d60c448a450123a78a77ba40
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 evaluate_entity_ruler:

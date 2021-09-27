@@ -1,0 +1,179 @@
+2021-09-27 15:25:16,059 INFO    MainThread:17284 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-27 15:25:16,059 INFO    MainThread:17284 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-27 15:25:16,059 INFO    MainThread:17284 [wandb_init.py:_log_setup():348] Logging user logs to C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_152516-2byyuihg\logs\debug.log
+2021-09-27 15:25:16,059 INFO    MainThread:17284 [wandb_init.py:_log_setup():349] Logging internal logs to C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_152516-2byyuihg\logs\debug-internal.log
+2021-09-27 15:25:16,060 INFO    MainThread:17284 [wandb_init.py:init():381] calling init triggers
+2021-09-27 15:25:16,060 INFO    MainThread:17284 [wandb_init.py:init():386] wandb.init called with sweep_config: {}
+config: {}
+2021-09-27 15:25:16,061 INFO    MainThread:17284 [wandb_init.py:init():401] re-initializing run, found existing run on stack: 37kr1pzz
+2021-09-27 15:25:16,063 INFO    MainThread:17284 [wandb_run.py:finish():1275] finishing run alfred-ls/Prodigy_NER/37kr1pzz
+2021-09-27 15:25:16,063 INFO    MainThread:17284 [jupyter.py:save_history():353] not saving jupyter history
+2021-09-27 15:25:16,063 INFO    MainThread:17284 [jupyter.py:save_ipynb():298] not saving jupyter notebook
+2021-09-27 15:25:16,063 INFO    MainThread:17284 [wandb_init.py:_jupyter_teardown():281] cleaning up jupyter logic
+2021-09-27 15:25:16,064 INFO    MainThread:17284 [wandb_run.py:_atexit_cleanup():1575] got exitcode: 0
+2021-09-27 15:25:16,064 INFO    MainThread:17284 [wandb_run.py:_restore():1547] restore
+2021-09-27 15:25:16,970 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4024051
+  total_bytes: 4024051
+}
+
+2021-09-27 15:25:17,080 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4024051
+  total_bytes: 4024051
+}
+
+2021-09-27 15:25:17,296 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4024051
+  total_bytes: 4024051
+}
+
+2021-09-27 15:25:17,884 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4024051
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:17,986 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4024051
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:18,088 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4024051
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:18,190 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4029525
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:18,292 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4029525
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:18,395 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4029525
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:18,496 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4029525
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:18,599 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4029525
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:18,972 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4029525
+  total_bytes: 4029525
+}
+
+2021-09-27 15:25:19,254 INFO    MainThread:17284 [wandb_run.py:_wait_for_finish():1697] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 2
+  artifact_count: 1042
+}
+pusher_stats {
+  uploaded_bytes: 4029525
+  total_bytes: 4029525
+}
+local_info {
+}
+
+2021-09-27 15:25:20,349 INFO    MainThread:17284 [wandb_run.py:_show_summary():1853] rendering summary
+2021-09-27 15:25:20,349 INFO    MainThread:17284 [wandb_run.py:_show_history():1898] rendering history
+2021-09-27 15:25:20,349 INFO    MainThread:17284 [wandb_run.py:_show_files():1947] logging synced files
+2021-09-27 15:25:20,356 INFO    MainThread:17284 [wandb_init.py:init():430] starting backend
+2021-09-27 15:25:20,356 INFO    MainThread:17284 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-09-27 15:25:20,360 INFO    MainThread:17284 [backend.py:ensure_launched():135] starting backend process...
+2021-09-27 15:25:20,436 INFO    MainThread:17284 [backend.py:ensure_launched():139] started backend process with pid: 2596
+2021-09-27 15:25:20,436 INFO    MainThread:17284 [wandb_init.py:init():435] backend started and connected
+2021-09-27 15:25:20,450 INFO    MainThread:17284 [wandb_run.py:_label_probe_notebook():819] probe notebook
+2021-09-27 15:25:20,450 INFO    MainThread:17284 [wandb_run.py:_label_probe_notebook():826] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-27 15:25:20,450 INFO    MainThread:17284 [wandb_init.py:init():494] updated telemetry
+2021-09-27 15:25:20,451 INFO    MainThread:17284 [wandb_init.py:init():517] communicating current version
+2021-09-27 15:25:21,477 INFO    MainThread:17284 [wandb_init.py:init():522] got version response 
+2021-09-27 15:25:21,477 INFO    MainThread:17284 [wandb_init.py:init():530] communicating run to backend with 30 second timeout
+2021-09-27 15:25:21,774 INFO    MainThread:17284 [wandb_init.py:init():557] starting run threads in backend
+2021-09-27 15:25:22,597 INFO    MainThread:17284 [wandb_run.py:_console_start():1605] atexit reg
+2021-09-27 15:25:22,598 INFO    MainThread:17284 [wandb_run.py:_redirect():1479] redirect: SettingsConsole.WRAP
+2021-09-27 15:25:22,598 INFO    MainThread:17284 [wandb_run.py:_redirect():1516] Wrapping output streams.
+2021-09-27 15:25:22,599 INFO    MainThread:17284 [wandb_run.py:_redirect():1540] Redirects installed.
+2021-09-27 15:25:22,600 INFO    MainThread:17284 [wandb_init.py:init():582] run started, returning control to user process
+2021-09-27 15:48:03,656 INFO    MainThread:17284 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-27 15:48:03,657 INFO    MainThread:17284 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-27 15:48:03,657 INFO    MainThread:17284 [wandb_init.py:_log_setup():348] Logging user logs to C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_154803-344wdgch\logs\debug.log
+2021-09-27 15:48:03,657 INFO    MainThread:17284 [wandb_init.py:_log_setup():349] Logging internal logs to C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20210927_154803-344wdgch\logs\debug-internal.log
+2021-09-27 15:48:03,658 INFO    MainThread:17284 [wandb_init.py:_jupyter_setup():300] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001B4CE38A310>
+2021-09-27 15:48:03,658 INFO    MainThread:17284 [wandb_init.py:init():381] calling init triggers
+2021-09-27 15:48:03,658 INFO    MainThread:17284 [wandb_init.py:init():386] wandb.init called with sweep_config: {}
+config: {}
+2021-09-27 15:48:03,658 INFO    MainThread:17284 [wandb_init.py:init():401] re-initializing run, found existing run on stack: 2byyuihg
+2021-09-27 15:48:03,660 INFO    MainThread:17284 [wandb_run.py:finish():1275] finishing run alfred-ls/Prodigy_NER/2byyuihg
