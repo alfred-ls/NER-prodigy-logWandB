@@ -1,0 +1,388 @@
+2021-10-03 15:05:29,589 INFO    MainThread:11244 [internal.py:wandb_internal():86] W&B internal server running at pid: 11244, started at: 2021-10-03 15:05:29.584942
+2021-10-03 15:05:29,592 INFO    WriterThread:11244 [datastore.py:open_for_write():77] open: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\run-ffvq98al.wandb
+2021-10-03 15:05:29,592 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: check_version
+2021-10-03 15:05:29,594 DEBUG   SenderThread:11244 [sender.py:send():185] send: header
+2021-10-03 15:05:29,594 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: check_version
+2021-10-03 15:05:29,708 DEBUG   SenderThread:11244 [sender.py:send():185] send: run
+2021-10-03 15:05:30,006 INFO    SenderThread:11244 [dir_watcher.py:__init__():169] watching files in: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files
+2021-10-03 15:05:30,006 INFO    SenderThread:11244 [sender.py:_start_run_threads():746] run started: ffvq98al with start time 1633266328
+2021-10-03 15:05:30,006 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:05:30,007 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:05:30,008 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: run_start
+2021-10-03 15:05:30,019 DEBUG   HandlerThread:11244 [meta.py:__init__():40] meta init
+2021-10-03 15:05:30,020 DEBUG   HandlerThread:11244 [meta.py:__init__():54] meta init done
+2021-10-03 15:05:30,020 DEBUG   HandlerThread:11244 [meta.py:probe():211] probe
+2021-10-03 15:05:30,023 DEBUG   HandlerThread:11244 [meta.py:_setup_git():201] setup git
+2021-10-03 15:05:30,129 DEBUG   HandlerThread:11244 [meta.py:_setup_git():208] setup git done
+2021-10-03 15:05:30,129 DEBUG   HandlerThread:11244 [meta.py:_save_pip():58] save pip
+2021-10-03 15:05:30,131 DEBUG   HandlerThread:11244 [meta.py:_save_pip():72] save pip done
+2021-10-03 15:05:30,131 DEBUG   HandlerThread:11244 [meta.py:_save_conda():79] save conda
+2021-10-03 15:05:31,008 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\conda-environment.yaml
+2021-10-03 15:05:31,008 DEBUG   HandlerThread:11244 [meta.py:_save_conda():87] save conda done
+2021-10-03 15:05:31,009 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:05:31,009 DEBUG   HandlerThread:11244 [meta.py:probe():249] probe done
+2021-10-03 15:05:31,009 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\requirements.txt
+2021-10-03 15:05:31,048 DEBUG   SenderThread:11244 [sender.py:send():185] send: files
+2021-10-03 15:05:31,048 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:05:31,048 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-03 15:05:31,049 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:05:31,635 INFO    Thread-17 :11244 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\AppData\Local\Temp\tmppezr7px5wandb\3mx0rzbf-wandb-metadata.json
+2021-10-03 15:05:32,005 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:05:32,006 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-metadata.json
+2021-10-03 15:05:34,008 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:05:34,751 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:05:34,751 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:05:34,753 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:05:34,753 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:05:34,753 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:05:34,754 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:05:34,754 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:05:34,754 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:05:34,755 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:05:35,008 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:05:36,008 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:05:47,302 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:05:47,302 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:05:57,026 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:05:57,026 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:05:57,031 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:05:57,031 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:05:57,031 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:05:57,032 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:05:57,032 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:05:57,032 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:05:57,033 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:05:58,024 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:05:58,025 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:05:58,478 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:06:02,486 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:06:02,487 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:06:17,670 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:06:17,670 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:06:20,997 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:06:20,997 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:06:21,001 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:06:21,001 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:06:21,001 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:06:21,002 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:06:21,002 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:06:21,002 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:06:21,003 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:06:21,038 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:06:22,039 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:06:28,939 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:06:32,849 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:06:32,849 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:06:46,435 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:06:46,436 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:06:46,437 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:06:46,438 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:06:46,438 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:06:46,438 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:06:46,439 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:06:46,439 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:06:46,439 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:06:47,064 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:06:48,028 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:06:48,028 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:06:48,066 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:06:59,401 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:07:03,216 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:07:03,216 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:07:13,707 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:07:13,708 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:07:13,710 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:07:13,710 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:07:13,711 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:07:13,711 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:07:13,712 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:07:13,712 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:07:13,713 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:07:14,079 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:07:15,080 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:07:18,396 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:07:18,397 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:07:29,883 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:07:33,583 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:07:33,583 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:07:44,918 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:07:44,918 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:07:44,921 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:07:44,922 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:07:44,922 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:07:44,922 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:07:44,923 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:07:44,923 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:07:44,923 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:07:45,100 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:07:47,101 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:07:48,784 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:07:48,785 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:08:00,346 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:08:03,982 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:08:03,982 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:08:19,198 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:08:19,198 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:08:19,369 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:08:19,370 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:08:19,371 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:08:19,372 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:08:19,372 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:08:19,374 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:08:19,374 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:08:19,375 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:08:19,376 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:08:20,125 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:08:21,127 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:08:30,824 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:08:34,374 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:08:34,375 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:08:49,559 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:08:49,559 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:08:57,219 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:08:57,219 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:08:57,224 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:08:57,224 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:08:57,224 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:08:57,226 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:08:57,226 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:08:57,226 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:08:57,227 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:08:58,147 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:08:59,148 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:09:01,292 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:09:04,745 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:09:04,745 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:09:19,942 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:09:19,942 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:09:31,771 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:09:35,123 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:09:35,123 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:09:40,297 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:09:40,297 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:09:40,299 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:09:40,299 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:09:40,299 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:09:40,300 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:09:40,300 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:09:40,300 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:09:40,301 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:09:41,174 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:09:43,175 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:09:50,341 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:09:50,341 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:10:02,241 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:10:05,530 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:10:05,530 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:10:20,722 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:10:20,723 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:10:29,294 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:10:29,295 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:10:29,298 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:10:29,298 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:10:29,299 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:10:29,299 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:10:29,300 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:10:29,300 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:10:29,301 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:10:30,204 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:10:31,205 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:10:32,719 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:10:35,905 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:10:35,905 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:10:51,080 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:10:51,080 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:11:03,176 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:11:06,273 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:11:06,273 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:11:21,451 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:11:21,451 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:11:26,023 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:11:26,026 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:11:26,028 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:11:26,028 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:11:26,029 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:11:26,030 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:11:26,030 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:11:26,031 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:11:26,032 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:11:26,246 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:11:27,247 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:11:33,637 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:11:36,640 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:11:36,640 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:11:51,830 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:11:51,830 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:12:04,092 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:12:07,062 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:12:07,062 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:12:22,247 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:12:22,247 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:12:31,499 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:12:31,499 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:12:31,503 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:12:31,503 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:12:31,503 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:12:31,504 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:12:31,504 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:12:31,504 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:12:31,505 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:12:32,284 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:12:33,284 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:12:34,540 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:12:37,421 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:12:37,421 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:12:52,604 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:12:52,604 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:13:04,989 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:13:07,789 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:13:07,789 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:13:22,966 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:13:22,966 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:13:35,420 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:13:38,141 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:13:38,141 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:13:43,351 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:13:43,353 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:13:43,354 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:13:43,356 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:13:43,356 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:13:43,357 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:13:43,357 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:13:43,357 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:13:43,357 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:13:44,328 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:13:45,330 INFO    Thread-12 :11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:13:53,324 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:13:53,324 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:14:05,878 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:14:08,508 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:14:08,508 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:14:23,709 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:14:23,709 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:14:36,315 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:14:38,934 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:14:38,934 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:14:54,117 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 15:14:54,117 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 15:14:57,521 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:14:57,521 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:14:57,523 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:14:57,524 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:14:57,524 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:14:57,524 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:14:57,525 DEBUG   SenderThread:11244 [sender.py:send():185] send: history
+2021-10-03 15:14:57,525 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:14:57,525 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:14:57,836 DEBUG   SenderThread:11244 [sender.py:send():185] send: telemetry
+2021-10-03 15:14:57,836 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:57,836 DEBUG   SenderThread:11244 [sender.py:send():185] send: exit
+2021-10-03 15:14:57,837 INFO    SenderThread:11244 [sender.py:send_exit():294] handling exit code: 0
+2021-10-03 15:14:57,837 INFO    SenderThread:11244 [sender.py:send_exit():296] handling runtime: 567
+2021-10-03 15:14:57,837 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:14:57,838 INFO    SenderThread:11244 [sender.py:send_exit():306] send defer
+2021-10-03 15:14:57,838 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:57,838 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:57,838 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-03 15:14:57,838 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:57,838 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-10-03 15:14:57,839 INFO    SenderThread:11244 [sender.py:transition_state():319] send defer: 1
+2021-10-03 15:14:57,839 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:57,839 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-03 15:14:57,921 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:57,921 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-10-03 15:14:57,921 INFO    SenderThread:11244 [sender.py:transition_state():319] send defer: 2
+2021-10-03 15:14:57,922 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:57,922 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-03 15:14:57,922 DEBUG   SenderThread:11244 [sender.py:send():185] send: stats
+2021-10-03 15:14:57,922 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:57,922 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-10-03 15:14:57,922 INFO    SenderThread:11244 [sender.py:transition_state():319] send defer: 3
+2021-10-03 15:14:57,923 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:57,923 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-03 15:14:57,923 DEBUG   SenderThread:11244 [sender.py:send():185] send: summary
+2021-10-03 15:14:57,924 INFO    SenderThread:11244 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 15:14:57,924 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:57,924 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-10-03 15:14:57,924 INFO    SenderThread:11244 [sender.py:transition_state():319] send defer: 4
+2021-10-03 15:14:57,924 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:57,924 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-03 15:14:57,925 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:57,925 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-10-03 15:14:57,940 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:58,144 INFO    SenderThread:11244 [sender.py:transition_state():319] send defer: 5
+2021-10-03 15:14:58,144 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:58,145 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:58,145 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-03 15:14:58,145 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:58,145 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-10-03 15:14:58,145 INFO    SenderThread:11244 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-03 15:14:58,246 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:58,365 INFO    SenderThread:11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\config.yaml
+2021-10-03 15:14:58,365 INFO    SenderThread:11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:14:58,366 INFO    SenderThread:11244 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:14:58,366 INFO    SenderThread:11244 [dir_watcher.py:finish():313] scan: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files
+2021-10-03 15:14:58,366 INFO    SenderThread:11244 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\conda-environment.yaml conda-environment.yaml
+2021-10-03 15:14:58,367 INFO    SenderThread:11244 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\config.yaml config.yaml
+2021-10-03 15:14:58,367 INFO    SenderThread:11244 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log output.log
+2021-10-03 15:14:58,367 INFO    SenderThread:11244 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\requirements.txt requirements.txt
+2021-10-03 15:14:58,373 INFO    SenderThread:11244 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-metadata.json wandb-metadata.json
+2021-10-03 15:14:58,373 INFO    SenderThread:11244 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json wandb-summary.json
+2021-10-03 15:14:58,377 INFO    SenderThread:11244 [sender.py:transition_state():319] send defer: 6
+2021-10-03 15:14:58,377 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:58,377 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:58,377 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-03 15:14:58,377 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:58,378 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-10-03 15:14:58,378 INFO    SenderThread:11244 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-03 15:14:58,478 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:58,478 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:58,579 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:58,579 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:58,680 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:58,680 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:58,781 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:58,781 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:58,882 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:58,882 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:58,939 INFO    Thread-18 :11244 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\config.yaml
+2021-10-03 15:14:58,940 INFO    Thread-21 :11244 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\wandb-summary.json
+2021-10-03 15:14:58,947 INFO    Thread-20 :11244 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\requirements.txt
+2021-10-03 15:14:58,983 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:58,983 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:59,051 INFO    Thread-19 :11244 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\files\output.log
+2021-10-03 15:14:59,084 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:59,084 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:59,185 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:59,185 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:59,254 INFO    Thread-11 :11244 [sender.py:transition_state():319] send defer: 7
+2021-10-03 15:14:59,254 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:59,254 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-03 15:14:59,254 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:59,254 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-10-03 15:14:59,286 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:59,596 INFO    SenderThread:11244 [sender.py:transition_state():319] send defer: 8
+2021-10-03 15:14:59,596 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:59,597 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:59,597 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-03 15:14:59,597 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:59,597 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-10-03 15:14:59,597 INFO    SenderThread:11244 [sender.py:transition_state():319] send defer: 9
+2021-10-03 15:14:59,597 DEBUG   SenderThread:11244 [sender.py:send():185] send: final
+2021-10-03 15:14:59,597 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 15:14:59,597 DEBUG   SenderThread:11244 [sender.py:send():185] send: footer
+2021-10-03 15:14:59,598 INFO    HandlerThread:11244 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-03 15:14:59,598 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: defer
+2021-10-03 15:14:59,598 INFO    SenderThread:11244 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-10-03 15:14:59,697 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 15:14:59,697 DEBUG   SenderThread:11244 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 15:14:59,697 INFO    SenderThread:11244 [file_pusher.py:join():182] waiting for file pusher
+2021-10-03 15:15:00,034 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-03 15:15:00,035 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-03 15:15:00,036 DEBUG   HandlerThread:11244 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-03 15:15:00,036 INFO    HandlerThread:11244 [handler.py:finish():683] shutting down handler
+2021-10-03 15:15:00,598 INFO    WriterThread:11244 [datastore.py:close():281] close: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_150524-ffvq98al\run-ffvq98al.wandb
+2021-10-03 15:15:01,033 INFO    SenderThread:11244 [sender.py:finish():985] shutting down sender
+2021-10-03 15:15:01,033 INFO    SenderThread:11244 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-03 15:15:01,033 INFO    SenderThread:11244 [file_pusher.py:join():182] waiting for file pusher
+2021-10-03 15:15:01,035 INFO    MainThread:11244 [internal.py:handle_exit():76] Internal process exited

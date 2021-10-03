@@ -1,0 +1,3 @@
+ℹ Pipeline: ['tok2vec', 'ner', 'entity_ruler']
+ℹ Initial learn rate: 0.009117708
+wandb: WARNING Ignored wandb.init() arg project when running a sweep

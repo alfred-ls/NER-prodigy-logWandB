@@ -1,0 +1,141 @@
+2021-10-03 14:47:30,096 INFO    MainThread:2220 [internal.py:wandb_internal():86] W&B internal server running at pid: 2220, started at: 2021-10-03 14:47:30.091778
+2021-10-03 14:47:30,099 INFO    WriterThread:2220 [datastore.py:open_for_write():77] open: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\run-sjnrkv4i.wandb
+2021-10-03 14:47:30,099 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: check_version
+2021-10-03 14:47:30,101 DEBUG   SenderThread:2220 [sender.py:send():185] send: header
+2021-10-03 14:47:30,101 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: check_version
+2021-10-03 14:47:30,196 DEBUG   SenderThread:2220 [sender.py:send():185] send: run
+2021-10-03 14:47:30,490 INFO    SenderThread:2220 [dir_watcher.py:__init__():169] watching files in: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files
+2021-10-03 14:47:30,490 INFO    SenderThread:2220 [sender.py:_start_run_threads():746] run started: sjnrkv4i with start time 1633265249
+2021-10-03 14:47:30,490 DEBUG   SenderThread:2220 [sender.py:send():185] send: summary
+2021-10-03 14:47:30,490 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: run_start
+2021-10-03 14:47:30,497 INFO    SenderThread:2220 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 14:47:30,504 DEBUG   HandlerThread:2220 [meta.py:__init__():40] meta init
+2021-10-03 14:47:30,504 DEBUG   HandlerThread:2220 [meta.py:__init__():54] meta init done
+2021-10-03 14:47:30,504 DEBUG   HandlerThread:2220 [meta.py:probe():211] probe
+2021-10-03 14:47:30,507 DEBUG   HandlerThread:2220 [meta.py:_setup_git():201] setup git
+2021-10-03 14:47:30,616 DEBUG   HandlerThread:2220 [meta.py:_setup_git():208] setup git done
+2021-10-03 14:47:30,616 DEBUG   HandlerThread:2220 [meta.py:_save_pip():58] save pip
+2021-10-03 14:47:30,617 DEBUG   HandlerThread:2220 [meta.py:_save_pip():72] save pip done
+2021-10-03 14:47:30,617 DEBUG   HandlerThread:2220 [meta.py:_save_conda():79] save conda
+2021-10-03 14:47:31,469 DEBUG   HandlerThread:2220 [meta.py:_save_conda():87] save conda done
+2021-10-03 14:47:31,469 DEBUG   HandlerThread:2220 [meta.py:probe():249] probe done
+2021-10-03 14:47:31,474 DEBUG   SenderThread:2220 [sender.py:send():185] send: files
+2021-10-03 14:47:31,474 INFO    SenderThread:2220 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-03 14:47:31,486 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-03 14:47:31,486 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: stop_status
+2021-10-03 14:47:31,492 INFO    Thread-12 :2220 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\conda-environment.yaml
+2021-10-03 14:47:31,492 INFO    Thread-12 :2220 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\output.log
+2021-10-03 14:47:31,493 INFO    Thread-12 :2220 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\wandb-summary.json
+2021-10-03 14:47:31,493 INFO    Thread-12 :2220 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\wandb-metadata.json
+2021-10-03 14:47:31,493 INFO    Thread-12 :2220 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\requirements.txt
+2021-10-03 14:47:32,082 INFO    Thread-17 :2220 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\AppData\Local\Temp\tmp7camv64zwandb\3e4q77r5-wandb-metadata.json
+2021-10-03 14:47:38,897 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:38,897 DEBUG   SenderThread:2220 [sender.py:send():185] send: telemetry
+2021-10-03 14:47:38,898 DEBUG   SenderThread:2220 [sender.py:send():185] send: exit
+2021-10-03 14:47:38,898 INFO    SenderThread:2220 [sender.py:send_exit():294] handling exit code: 0
+2021-10-03 14:47:38,898 INFO    SenderThread:2220 [sender.py:send_exit():296] handling runtime: 8
+2021-10-03 14:47:38,898 INFO    SenderThread:2220 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 14:47:38,898 INFO    SenderThread:2220 [sender.py:send_exit():306] send defer
+2021-10-03 14:47:38,898 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:38,899 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:38,899 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-03 14:47:38,899 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:38,899 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-10-03 14:47:38,899 INFO    SenderThread:2220 [sender.py:transition_state():319] send defer: 1
+2021-10-03 14:47:38,900 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:38,900 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-03 14:47:38,928 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:38,929 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-10-03 14:47:38,929 INFO    SenderThread:2220 [sender.py:transition_state():319] send defer: 2
+2021-10-03 14:47:38,929 DEBUG   SenderThread:2220 [sender.py:send():185] send: stats
+2021-10-03 14:47:38,929 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:38,929 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-03 14:47:38,930 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:38,930 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-10-03 14:47:38,930 INFO    SenderThread:2220 [sender.py:transition_state():319] send defer: 3
+2021-10-03 14:47:38,930 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:38,930 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-03 14:47:38,930 DEBUG   SenderThread:2220 [sender.py:send():185] send: summary
+2021-10-03 14:47:38,931 INFO    SenderThread:2220 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-03 14:47:38,931 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:38,931 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-10-03 14:47:38,931 INFO    SenderThread:2220 [sender.py:transition_state():319] send defer: 4
+2021-10-03 14:47:38,931 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:38,931 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-03 14:47:38,931 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:38,931 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-10-03 14:47:39,001 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:39,124 INFO    SenderThread:2220 [sender.py:transition_state():319] send defer: 5
+2021-10-03 14:47:39,125 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:39,126 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:39,126 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-03 14:47:39,126 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:39,126 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-10-03 14:47:39,126 INFO    SenderThread:2220 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-03 14:47:39,227 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:39,494 INFO    Thread-12 :2220 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\wandb-summary.json
+2021-10-03 14:47:39,495 INFO    SenderThread:2220 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\config.yaml
+2021-10-03 14:47:39,495 INFO    SenderThread:2220 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\output.log
+2021-10-03 14:47:39,495 INFO    SenderThread:2220 [dir_watcher.py:finish():313] scan: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files
+2021-10-03 14:47:39,496 INFO    SenderThread:2220 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\conda-environment.yaml conda-environment.yaml
+2021-10-03 14:47:39,496 INFO    SenderThread:2220 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\config.yaml config.yaml
+2021-10-03 14:47:39,496 INFO    SenderThread:2220 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\output.log output.log
+2021-10-03 14:47:39,497 INFO    SenderThread:2220 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\requirements.txt requirements.txt
+2021-10-03 14:47:39,501 INFO    SenderThread:2220 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\wandb-metadata.json wandb-metadata.json
+2021-10-03 14:47:39,503 INFO    SenderThread:2220 [dir_watcher.py:finish():327] scan save: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\wandb-summary.json wandb-summary.json
+2021-10-03 14:47:39,507 INFO    SenderThread:2220 [sender.py:transition_state():319] send defer: 6
+2021-10-03 14:47:39,508 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:39,509 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:39,512 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-03 14:47:39,513 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:39,513 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-10-03 14:47:39,514 INFO    SenderThread:2220 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-03 14:47:39,610 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:39,610 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:39,713 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:39,714 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:39,816 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:39,816 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:39,917 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:39,917 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:40,019 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:40,019 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:40,045 INFO    Thread-19 :2220 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\output.log
+2021-10-03 14:47:40,053 INFO    Thread-18 :2220 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\config.yaml
+2021-10-03 14:47:40,073 INFO    Thread-21 :2220 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\wandb-summary.json
+2021-10-03 14:47:40,075 INFO    Thread-20 :2220 [upload_job.py:push():137] Uploaded file C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\files\requirements.txt
+2021-10-03 14:47:40,120 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:40,120 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:40,221 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:40,221 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:40,278 INFO    Thread-11 :2220 [sender.py:transition_state():319] send defer: 7
+2021-10-03 14:47:40,278 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:40,278 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-03 14:47:40,278 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:40,278 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-10-03 14:47:40,323 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:40,584 INFO    SenderThread:2220 [sender.py:transition_state():319] send defer: 8
+2021-10-03 14:47:40,584 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:40,584 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:40,584 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-03 14:47:40,584 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:40,584 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-10-03 14:47:40,585 INFO    SenderThread:2220 [sender.py:transition_state():319] send defer: 9
+2021-10-03 14:47:40,585 DEBUG   SenderThread:2220 [sender.py:send():185] send: final
+2021-10-03 14:47:40,585 DEBUG   SenderThread:2220 [sender.py:send():185] send: footer
+2021-10-03 14:47:40,586 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: defer
+2021-10-03 14:47:40,586 INFO    HandlerThread:2220 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-03 14:47:40,586 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: defer
+2021-10-03 14:47:40,586 INFO    SenderThread:2220 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-10-03 14:47:40,686 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-03 14:47:40,686 DEBUG   SenderThread:2220 [sender.py:send_request():199] send_request: poll_exit
+2021-10-03 14:47:40,686 INFO    SenderThread:2220 [file_pusher.py:join():182] waiting for file pusher
+2021-10-03 14:47:41,024 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-03 14:47:41,024 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-03 14:47:41,025 DEBUG   HandlerThread:2220 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-03 14:47:41,025 INFO    HandlerThread:2220 [handler.py:finish():683] shutting down handler
+2021-10-03 14:47:41,585 INFO    WriterThread:2220 [datastore.py:close():281] close: C:\Users\astelzl\Documents\02_DEV\01_Code_Thesis\NER-prodigy-logWandB\wandb\run-20211003_144729-sjnrkv4i\run-sjnrkv4i.wandb
+2021-10-03 14:47:42,022 INFO    SenderThread:2220 [sender.py:finish():985] shutting down sender
+2021-10-03 14:47:42,022 INFO    SenderThread:2220 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-03 14:47:42,022 INFO    SenderThread:2220 [file_pusher.py:join():182] waiting for file pusher
+2021-10-03 14:47:42,024 INFO    MainThread:2220 [internal.py:handle_exit():76] Internal process exited

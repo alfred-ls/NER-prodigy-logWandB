@@ -1,0 +1,25 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.8.3",
+    "heartbeatAt": "2021-10-03T11:33:52.824738",
+    "startedAt": "2021-10-03T11:33:47.258465",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "./configs/config.cfg",
+        "./training"
+    ],
+    "state": "running",
+    "program": "scripts/sweeps_using_config.py",
+    "codePath": "scripts\\sweeps_using_config.py",
+    "git": {
+        "remote": "https://github.com/alfred-ls/NER-prodigy-logWandB.git",
+        "commit": "d8cfde76609cc8e8d8a2b06730e33c23e8a29403"
+    },
+    "email": "alfred.stelzl@gmx.de",
+    "root": "C:/Users/astelzl/Documents/02_DEV/01_Code_Thesis/NER-prodigy-logWandB",
+    "host": "astelzlPC1C17X5",
+    "username": "astelzl",
+    "executable": "c:\\users\\astelzl\\miniconda3\\python.exe"
+}
