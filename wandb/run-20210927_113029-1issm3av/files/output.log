@@ -1,4 +1,0 @@
-C:\Users\astelzl\Miniconda3\lib\site-packages\spacy\displacy\__init__.py:191: UserWarning: [W006] No entities to visualize found in Doc object. If this is surprising to you, make sure the Doc was processed using a model that supports named entity recognition, and check the `doc.ents` property manually if necessary.
-  warnings.warn(Warnings.W006)
-Prodigy dataset `correct_UC01_train` uploaded.
-Prodigy dataset `correct_UC01_eval` uploaded.

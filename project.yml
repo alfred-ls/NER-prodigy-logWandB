@@ -40,6 +40,7 @@ workflows:
    all:
      - data-to-spacy
      - train_spacy
+     - train_search
      - evaluate
      - evaluate_entity_ruler
 
@@ -83,6 +84,19 @@ commands:
       - "corpus/dev.spacy"
     outputs:
       - "training/model-best"
+
+
+  - name: "train_search"
+    help: "Run customized training runs for hyperparameter search using [Weights & Biases Sweeps](https://docs.wandb.ai/guides/sweeps)"
+    script:
+      - "python ./scripts/sweeps_using_config.py configs/${vars.config} training/"
+    deps:
+      - "corpus/train.spacy"
+      - "corpus/dev.spacy"
+      - "configs/"
+    outputs:
+      - "training/model-best"
+      
 
 
   - name: "train_prodigy"

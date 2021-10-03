@@ -264,3 +264,129 @@
 	training.train_corpus: corpora.train
 	variables.wandb_project_name: NER-prodigy-logWandB
 2021-09-27 13:32:11 INFO About to run command: python train.py --components.entity_ruler.ent_id_sep=|| --components.entity_ruler.factory=entity_ruler --components.entity_ruler.overwrite_ents=false --components.entity_ruler.validate=true --components.ner.factory=ner --components.ner.model.@architectures=spacy.TransitionBasedParser.v2 --components.ner.model.extra_state_tokens=false --components.ner.model.hidden_width=80 --components.ner.model.maxout_pieces=2 --components.ner.model.state_type=ner --components.ner.model.tok2vec.@architectures=spacy.Tok2Vec.v2 --components.ner.model.tok2vec.embed.@architectures=spacy.MultiHashEmbed.v2 --components.ner.model.tok2vec.embed.include_static_vectors=false --components.ner.model.tok2vec.embed.width=166 --components.ner.model.tok2vec.encode.@architectures=spacy.MaxoutWindowEncoder.v2 --components.ner.model.tok2vec.encode.depth=6 --components.ner.model.tok2vec.encode.maxout_pieces=2 --components.ner.model.tok2vec.encode.width=52 --components.ner.model.tok2vec.encode.window_size=1 --components.ner.model.tok2vec.upstream=* --components.ner.model.tok2vec.width=192 --components.ner.model.use_upper=false --components.ner.update_with_oracle_cut_size=106 --components.tok2vec.factory=tok2vec --components.tok2vec.model.@architectures=spacy.Tok2Vec.v1 --components.tok2vec.model.embed.@architectures=spacy.MultiHashEmbed.v1 --components.tok2vec.model.embed.include_static_vectors=false --components.tok2vec.model.embed.width=159 --components.tok2vec.model.encode.@architectures=spacy.MaxoutWindowEncoder.v1 --components.tok2vec.model.encode.depth=4 --components.tok2vec.model.encode.maxout_pieces=5 --components.tok2vec.model.encode.width=159 --components.tok2vec.model.encode.window_size=2 --corpora.dev.@readers=spacy.Corpus.v1 --corpora.dev.gold_preproc=true --corpora.dev.path=corpus/dev.spacy --corpora.train.@readers=spacy.Corpus.v1 --corpora.train.gold_preproc=false --corpora.train.max_length=3055 --corpora.train.path=corpus/train.spacy --initialize.components.entity_ruler.patterns.@readers=srsly.read_jsonl.v1 --initialize.components.entity_ruler.patterns.path=training/custom_model_md/entity_ruler/patterns.jsonl --initialize.components.entity_ruler.patterns.skip=true --initialize.lookups.@misc=spacy.LookupsDataLoader.v1 --initialize.lookups.lang=en --initialize.vectors=training/custom_model_md --nlp.batch_size=1004 --nlp.lang=en --nlp.tokenizer.@tokenizers=spacy.Tokenizer.v1 --paths.dev=corpus/dev.spacy --paths.train=corpus/train.spacy --paths.vectors=training/custom_model_md --training.accumulate_gradient=1 --training.batcher.@batchers=spacy.batch_by_words.v1 --training.batcher.discard_oversize=true --training.batcher.size.@schedules=compounding.v1 --training.batcher.size.compound=1.2085893840843576 --training.batcher.size.start=60 --training.batcher.size.stop=1685 --training.batcher.tolerance=0.18458248816482875 --training.dev_corpus=corpora.dev --training.dropout=0.1490387362556091 --training.eval_frequency=185 --training.logger.@loggers=spacy.WandbLogger.v2 --training.logger.log_dataset_dir=./corpus --training.logger.model_log_interval=1015 --training.logger.project_name=NER-prodigy-logWandB --training.max_steps=25091 --training.optimizer.@optimizers=Adam.v1 --training.optimizer.beta1=0.5529299884777417 --training.optimizer.beta2=0.8345530163397397 --training.optimizer.eps=1.6067885117803736e-08 --training.optimizer.grad_clip=1 --training.optimizer.l2=0.010013701647246432 --training.optimizer.l2_is_weight_decay=true --training.optimizer.learn_rate.@schedules=warmup_linear.v1 --training.optimizer.learn_rate.initial_rate=9.435391380157194e-05 --training.optimizer.learn_rate.total_steps=17004 --training.optimizer.learn_rate.warmup_steps=332 --training.optimizer.use_averages=false --training.patience=3153 --training.score_weights.ents_f=2 --training.train_corpus=corpora.train --variables.wandb_project_name=NER-prodigy-logWandB
+2021-10-03 12:34:56 INFO Running runs: []
+2021-10-03 12:34:57 INFO Agent received command: run
+2021-10-03 12:34:57 INFO Agent starting run with config:
+	training.dropout: 0.3351684986575245
+	training.optimizer.learn_rate: 0.0032806987897934475
+2021-10-03 12:34:57 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 12:35:02 INFO Running runs: ['jlplzksl']
+2021-10-03 12:44:32 INFO Cleaning up finished run: jlplzksl
+2021-10-03 12:44:33 INFO Agent received command: run
+2021-10-03 12:44:33 INFO Agent starting run with config:
+	training.dropout: 0.4708161396305576
+	training.optimizer.learn_rate: 0.004722171917927688
+2021-10-03 12:44:33 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 12:44:38 INFO Running runs: ['6jncavi4']
+2021-10-03 12:54:09 INFO Cleaning up finished run: 6jncavi4
+2021-10-03 12:54:09 INFO Agent received command: run
+2021-10-03 12:54:09 INFO Agent starting run with config:
+	training.dropout: 0.09403902239542695
+	training.optimizer.learn_rate: 0.0092180702290641
+2021-10-03 12:54:09 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 12:54:14 INFO Running runs: ['lafpz56f']
+2021-10-03 13:05:03 INFO Cleaning up finished run: lafpz56f
+2021-10-03 13:05:04 INFO Agent received command: run
+2021-10-03 13:05:04 INFO Agent starting run with config:
+	training.dropout: 0.0736971601545924
+	training.optimizer.learn_rate: 0.0017545344111332035
+2021-10-03 13:05:04 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 13:05:09 INFO Running runs: ['ednu13wu']
+2021-10-03 13:25:23 INFO Cleaning up finished run: ednu13wu
+2021-10-03 13:25:23 INFO Agent received command: run
+2021-10-03 13:25:23 INFO Agent starting run with config:
+	training.dropout: 0.13405248420883667
+	training.optimizer.learn_rate: 0.002769800695050961
+2021-10-03 13:25:23 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 13:25:28 INFO Running runs: ['cslsjngx']
+2021-10-03 13:33:37 INFO Running runs: []
+2021-10-03 13:33:37 INFO Agent received command: run
+2021-10-03 13:33:37 INFO Agent starting run with config:
+	training.dropout: 0.4052338563414605
+	training.optimizer.learn_rate: 0.0059861450573140415
+2021-10-03 13:33:37 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 13:33:42 INFO Running runs: ['f5uk14x7']
+2021-10-03 13:42:16 INFO Cleaning up finished run: f5uk14x7
+2021-10-03 13:42:16 INFO Agent received command: run
+2021-10-03 13:42:16 INFO Agent starting run with config:
+	training.dropout: 0.32054726069145767
+	training.optimizer.learn_rate: 0.0023063641528322564
+2021-10-03 13:42:16 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 13:42:21 INFO Running runs: ['858ogvyt']
+2021-10-03 13:54:06 INFO Cleaning up finished run: 858ogvyt
+2021-10-03 13:54:07 INFO Agent received command: run
+2021-10-03 13:54:07 INFO Agent starting run with config:
+	training.dropout: 0.31825754128837597
+	training.optimizer.learn_rate: 0.002305998360470813
+2021-10-03 13:54:07 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 13:54:12 INFO Running runs: ['mcr8pn82']
+2021-10-03 14:03:22 INFO Cleaning up finished run: mcr8pn82
+2021-10-03 14:03:23 INFO Agent received command: run
+2021-10-03 14:03:23 INFO Agent starting run with config:
+	training.dropout: 0.090982808724959
+	training.optimizer.learn_rate: 0.003659134564732198
+2021-10-03 14:03:23 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 14:03:28 INFO Running runs: ['qurbubcy']
+2021-10-03 14:14:48 INFO Cleaning up finished run: qurbubcy
+2021-10-03 14:14:48 INFO Agent received command: run
+2021-10-03 14:14:48 INFO Agent starting run with config:
+	training.dropout: 0.4739357482747199
+	training.optimizer.learn_rate: 0.0031773257140921443
+2021-10-03 14:14:48 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 14:14:53 INFO Running runs: ['kvpdgp4r']
+2021-10-03 14:23:37 INFO Cleaning up finished run: kvpdgp4r
+2021-10-03 14:23:38 INFO Agent received command: run
+2021-10-03 14:23:38 INFO Agent starting run with config:
+	training.dropout: 0.2147609180740016
+	training.optimizer.learn_rate: 0.0027029308383953532
+2021-10-03 14:23:38 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 14:23:43 INFO Running runs: ['xi8re1nd']
+2021-10-03 14:32:16 INFO Cleaning up finished run: xi8re1nd
+2021-10-03 14:32:18 INFO Agent received command: run
+2021-10-03 14:32:18 INFO Agent starting run with config:
+	training.dropout: 0.36402009247980793
+	training.optimizer.learn_rate: 0.009854160339405373
+2021-10-03 14:32:18 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 14:32:23 INFO Running runs: ['svcr7u2j']
+2021-10-03 14:47:26 INFO Cleaning up finished run: svcr7u2j
+2021-10-03 14:47:26 INFO Agent received command: run
+2021-10-03 14:47:26 INFO Agent starting run with config:
+	training.dropout: 0.3813726603782183
+	training.optimizer.learn_rate: 0.006542061745329976
+2021-10-03 14:47:26 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 14:47:31 INFO Running runs: ['sjnrkv4i']
+2021-10-03 15:05:11 INFO Cleaning up finished run: sjnrkv4i
+2021-10-03 15:05:12 INFO Agent received command: run
+2021-10-03 15:05:12 INFO Agent starting run with config:
+	training.dropout: 0.44419056902727666
+	training.optimizer.learn_rate: 0.009117708045822997
+2021-10-03 15:05:12 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 15:05:17 INFO Running runs: ['ffvq98al']
+2021-10-03 15:15:03 INFO Cleaning up finished run: ffvq98al
+2021-10-03 15:15:04 INFO Agent received command: run
+2021-10-03 15:15:04 INFO Agent starting run with config:
+	training.dropout: 0.10518480825332312
+	training.optimizer.learn_rate: 0.006387060548772341
+2021-10-03 15:15:04 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 15:15:09 INFO Running runs: ['da0i2847']
+2021-10-03 15:27:36 INFO Cleaning up finished run: da0i2847
+2021-10-03 15:27:37 INFO Agent received command: run
+2021-10-03 15:27:37 INFO Agent starting run with config:
+	training.dropout: 0.49577053276599387
+	training.optimizer.learn_rate: 0.0024858247125852367
+2021-10-03 15:27:37 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 15:27:42 INFO Running runs: ['9yvr3oea']
+2021-10-03 15:34:16 INFO Cleaning up finished run: 9yvr3oea
+2021-10-03 15:34:17 INFO Agent received command: run
+2021-10-03 15:34:17 INFO Agent starting run with config:
+	training.dropout: 0.19481748241666452
+	training.optimizer.learn_rate: 0.006893316397696877
+2021-10-03 15:34:17 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 15:34:22 INFO Running runs: ['q3dkodhy']
+2021-10-03 15:45:33 INFO Cleaning up finished run: q3dkodhy
+2021-10-03 15:45:33 INFO Agent received command: run
+2021-10-03 15:45:33 INFO Agent starting run with config:
+	training.dropout: 0.3158843370121322
+	training.optimizer.learn_rate: 0.007165127389751142
+2021-10-03 15:45:33 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 15:45:38 INFO Running runs: ['0k3hooqm']

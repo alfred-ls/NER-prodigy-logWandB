@@ -22,7 +22,7 @@ train_spacy:
       md5: 5d66c2fec433f49910f799357fde6743
   outs:
     - path: training/model-best
-      md5: 05c8586cf7d83e38e6264de0dc62fedd
+      md5: e7b0940b2f0fdf2e7a61a6671c5e4628
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 train_prodigy:
@@ -45,10 +45,10 @@ evaluate:
     - path: corpus/dev.spacy
       md5: 5d66c2fec433f49910f799357fde6743
     - path: training/model-best
-      md5: cfc49267c562f39d9adf512c16ed7d96
+      md5: d37da6ada56834dd66cc25eae37e52ef
   outs:
     - path: training/metrics.json
-      md5: d6946c577173c8708fdc89040fb50bfe
+      md5: 83e1d435d2acd32885074f18a325e589
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 evaluate_entity_ruler:
