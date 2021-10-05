@@ -13,6 +13,7 @@ vars:
 #     train_file: "fashion_brands_training.jsonl"
 #     eval_file: "fashion_brands_eval.jsonl"
 
+
   prodigy:
     train_dataset: "correct_UC01_train"
     eval_dataset: "correct_UC01_eval"

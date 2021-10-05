@@ -5,9 +5,9 @@ data-to-spacy:
   deps: []
   outs:
     - path: corpus/train.spacy
-      md5: 240adad32d93594717c3935a64949422
+      md5: 37ce7f2f5fefec8a0ffc5f2e8fd9fd1e
     - path: corpus/dev.spacy
-      md5: 5d66c2fec433f49910f799357fde6743
+      md5: 261ef4013cad6ce4d6cf18336115e068
   spacy_version: 3.1.1
   spacy_git_version: ffaead8fe
 train_spacy:

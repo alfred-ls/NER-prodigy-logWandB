@@ -1,0 +1,6 @@
+wandb_version: 1
+
+training.dropout:
+  value: 0.11645933350966912
+training.optimizer.learn_rate:
+  value: 0.000989015658052131

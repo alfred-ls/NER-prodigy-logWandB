@@ -390,3 +390,24 @@
 	training.optimizer.learn_rate: 0.007165127389751142
 2021-10-03 15:45:33 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
 2021-10-03 15:45:38 INFO Running runs: ['0k3hooqm']
+2021-10-03 16:17:25 INFO Running runs: []
+2021-10-03 16:17:25 INFO Agent received command: run
+2021-10-03 16:17:25 INFO Agent starting run with config:
+	training.dropout: 0.11645933350966912
+	training.optimizer.learn_rate: 0.000989015658052131
+2021-10-03 16:17:25 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 16:17:30 INFO Running runs: ['7d5x0sms']
+2021-10-03 16:34:34 INFO Cleaning up finished run: 7d5x0sms
+2021-10-03 16:34:34 INFO Agent received command: run
+2021-10-03 16:34:34 INFO Agent starting run with config:
+	training.dropout: 0.11167795566164902
+	training.optimizer.learn_rate: 0.0011003455720931389
+2021-10-03 16:34:34 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 16:34:39 INFO Running runs: ['mfzzmn0j']
+2021-10-03 16:48:19 INFO Cleaning up finished run: mfzzmn0j
+2021-10-03 16:48:20 INFO Agent received command: run
+2021-10-03 16:48:20 INFO Agent starting run with config:
+	training.dropout: 0.09669587451838484
+	training.optimizer.learn_rate: 0.001131570549087881
+2021-10-03 16:48:20 INFO About to run command: python scripts/sweeps_using_config.py ./configs/config.cfg ./training
+2021-10-03 16:48:25 INFO Running runs: ['587ivc1c']
