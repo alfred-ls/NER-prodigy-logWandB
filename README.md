@@ -10,11 +10,11 @@ NER project for spaCy v3. The project data comes from kaggle:
 + BBC (https://www.kaggle.com/hgultekin/bbcnewsarchive)
 + NG (https://www.kaggle.com/salmaelanigri/doc-class)
 
-Label scheme (4 labels for 2 components):
+Label scheme (2 labels for 2 components):
 
 | Component | Labels |
 | --- | --- |
-| **`NER`** | `PERSON`, `F_NAME`, `L_NAME` |
+| **`NER`** | `PERSON`|
 | **`ENTITY_RULER`** | `EMAIL` |
 
 ## 📋 project.yml
@@ -34,17 +34,10 @@ Commands are only re-run if their inputs have changed.
 | `train_spacy` | Train a named entity recognition model with spaCy and log the results via wandb |
 | `train_prodigy` | Train a named entity recognition model with Prodigy |
 | `train_curve` | Train the model with Prodigy by using different portions of training examples to evaluate if more annotations can potentially improve the performance |
-| `package` | Package the trained model so it can be installed |
-
-
-+ ToDo:
-
-| Command | Description |
-| --- | --- |
 | `evaluate` | Evaluate the model and export metrics via spaCy |
 | `visualize-model` | Visualize the model's output interactively using Streamlit |
 | `visualize-data` | Visualize the data interactively using Streamlit |
-
+| `package` | Package the trained model so it can be installed |
 
 
 ### ⏭ Workflows
@@ -67,5 +60,20 @@ The following raw assets are defined by the project.
 | --- | --- | --- |
 | `assets/raw/UC1_train_meta.jsonl` | Local | JSONL-formatted raw training data (1778 docs) |
 | `assets/raw/UC1_eval_meta.jsonl` | Local | JSONL-formatted raw development data (593 docs) |
+
+### 💯 Insights
+#### Overall annotation count
+
+| | # Annotations | # PERSON | # EMAIL |
+| --- | --- | --- |--- |
+| `correct_UC01_train` | 3500 | 1011 | 272 |
+
+
+![image](https://user-images.githubusercontent.com/52454409/137497207-aaf6a3ca-b57f-4fb9-a6ab-369729e3d85a.png)
+
+![image](https://user-images.githubusercontent.com/52454409/137497379-42ddd39e-5f02-453e-86a2-55434afbdfa9.png)
+
+
+
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->
