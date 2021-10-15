@@ -62,12 +62,17 @@ The following raw assets are defined by the project.
 | `assets/raw/UC1_eval_meta.jsonl` | Local | JSONL-formatted raw development data (593 docs) |
 
 ### 💯 Insights
-#### Overall annotation count
+#### Overall annotation count:
 
 | | # Annotations | # PERSON | # EMAIL |
 | --- | --- | --- |--- |
 | `correct_UC01_train` | 3500 | 1011 | 272 |
 
+#### Annotation details:
+
+[W&B Prodigy report](https://wandb.ai/alfred-ls/Prodigy_NER/reports/Visualizing-Prodigy-UC01-datasets--VmlldzoxMDkwMzQ4)
+
+#### Overall results:
 
 ![image](https://user-images.githubusercontent.com/52454409/137497207-aaf6a3ca-b57f-4fb9-a6ab-369729e3d85a.png)
 
