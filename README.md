@@ -12,7 +12,7 @@ NER project for spaCy v3. The project data comes from kaggle:
 
 Label scheme:
 
-| Component | Labels |
+| Component | Label |
 | --- | --- |
 | **`NER`** | `PERSON`|
 | **`ENTITY_RULER`** | `EMAIL` |
