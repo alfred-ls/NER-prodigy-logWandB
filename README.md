@@ -10,7 +10,7 @@ NER project for spaCy v3. The project data comes from kaggle:
 + BBC (https://www.kaggle.com/hgultekin/bbcnewsarchive)
 + NG (https://www.kaggle.com/salmaelanigri/doc-class)
 
-Label scheme (2 labels for 2 components):
+Label scheme:
 
 | Component | Labels |
 | --- | --- |
