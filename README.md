@@ -78,6 +78,8 @@ The following raw assets are defined by the project.
 
 ![image](https://user-images.githubusercontent.com/52454409/137497379-42ddd39e-5f02-453e-86a2-55434afbdfa9.png)
 
+<img src="https://user-images.githubusercontent.com/52454409/137599249-e74ff4fd-f671-4a01-b33b-e8f14dc7b7b3.jpg" width="600">
+
 
 
 
